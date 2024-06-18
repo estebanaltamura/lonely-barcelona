@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import { Inter, Newsreader } from 'next/font/google';
 
 import './global.css';
+import Footer from './_noPages/views/footer/Footer';
 
 const interFont = Inter({
   subsets: ['latin'],
@@ -27,9 +28,9 @@ export default function RootLayout({
         </header> */}
 
         <main>{children}</main>
-        {/* <footer>
+        <footer>
           <Footer />
-        </footer> */}
+        </footer>
       </body>
     </html>
   );

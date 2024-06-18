@@ -1,7 +1,7 @@
 :root {
   --header-height: 50px;
-  --footer-height: 100px;
-  --main-padding-top-bottom-desktop: 100px;
+  --footer-height: 60px;
+  --main-padding-top-bottom-desktop: 50px;
   --main-padding-left-right-desktop: 50px;
   --main-padding-top-bottom-mobile: 50px;
   --main-padding-left-right-mobile: 20px;
@@ -34,8 +34,8 @@ main {
   flex-direction: column;
   align-items: center;
   width: 100%;
-  max-width: 1121px;
-  min-height: calc(100vh - var(--header-height) - var(--footer-height));
+  max-width: 1280px;
+  min-height: calc(100vh - var(--footer-height));
   padding: var(--main-padding-top-bottom-mobile)
     var(--main-padding-left-right-mobile);
 }
@@ -43,7 +43,7 @@ main {
 footer {
   width: 100%;
   height: var(--footer-height);
-  background-color: #252525;
+  background-color: 'black';
 }
 
 header p,
