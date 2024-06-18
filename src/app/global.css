@@ -56,10 +56,6 @@ a {
   text-decoration: none;
 }
 
-.newsreader {
-  font-family: var(--font-newsreader) !important;
-}
-
 .interFont {
   font-family: var(--font-interFont) !important;
 }

@@ -3,12 +3,6 @@ import { Inter, Newsreader } from 'next/font/google';
 
 import './global.css';
 
-const newsreader = Newsreader({
-  subsets: ['latin'],
-  weight: ['300', '400', '600', '700'],
-  variable: '--font-newsreader',
-});
-
 const interFont = Inter({
   subsets: ['latin'],
   weight: ['300', '400', '600', '700'],
@@ -27,7 +21,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang='en'>
-      <body className={`${interFont.variable} ${newsreader.variable}`}>
+      <body className={`${interFont.variable}`}>
         {/* <header>
           <Header />
         </header> */}

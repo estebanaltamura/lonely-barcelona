@@ -19,7 +19,6 @@ const Home = () => {
 
       <Typography
         variant='body1'
-        className='newsreader'
         sx={{
           color: '#FDF0DE',
           fontSize: isDesktop ? '64px' : '24px',
