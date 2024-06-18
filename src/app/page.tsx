@@ -90,6 +90,11 @@ const Home = () => {
           Menu
         </Button>
       </Box>
+      <img
+        src='/instagramIcon4.svg'
+        alt=''
+        style={{ width: '42px', marginTop: '50px' }}
+      />
     </Box>
   );
 };
