@@ -20,7 +20,7 @@ const Home = () => {
           fontSize: isDesktop ? '36px' : '24px',
           fontStyle: 'italic',
           textAlign: 'center',
-          marginTop: '15px',
+          marginTop: '10px',
         }}
       >
         We’re cocktails, music, and groove.
@@ -31,7 +31,7 @@ const Home = () => {
           display: 'flex',
           flexDirection: isDesktop ? 'row' : 'column',
           gap: '25px',
-          marginTop: '50px',
+          marginTop: '45px',
         }}
       >
         <Button
