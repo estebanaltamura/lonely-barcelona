@@ -33,16 +33,16 @@ const Home = () => {
       </Box>
 
       <Typography
+        className='newsReaderFont'
         variant='body1'
         sx={{
           color: '#FDF0DE',
           fontSize: isDesktop ? '36px' : '24px',
-          fontStyle: 'italic',
           textAlign: 'center',
           marginTop: '10px',
         }}
       >
-        We’re cocktails, music, and groove.
+        We’re <i>cocktails</i>, <i>music</i>, and <i>groove</i>.
       </Typography>
 
       <Box
