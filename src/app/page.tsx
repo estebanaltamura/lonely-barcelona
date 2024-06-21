@@ -1,13 +1,32 @@
 'use client';
 
 import { Box, Button, Typography, useMediaQuery } from '@mui/material';
+import { useRouter } from 'next/navigation';
 
 const Home = () => {
   const isDesktop = useMediaQuery('(min-width:600px)');
+  const router = useRouter();
+
+  const cartaLinkHandler = () => {
+    router.push('/carta');
+  };
+
+  const cartaCatalaLinkHandler = () => {
+    router.push('/cartaCatala');
+  };
+
+  const menuLinkHandler = () => {
+    router.push('/menu');
+  };
 
   return (
     <Box
-      sx={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}
+      sx={{
+        display: 'flex',
+        flexDirection: 'column',
+        alignItems: 'center',
+        padding: '0 20px',
+      }}
     >
       <Box sx={{ display: 'flex', width: '200px' }}>
         <img src='/logo.png' alt='' style={{ width: '200px' }} />
@@ -35,6 +54,7 @@ const Home = () => {
         }}
       >
         <Button
+          onClick={cartaLinkHandler}
           sx={{
             width: '227px',
             height: '55px',
@@ -53,6 +73,7 @@ const Home = () => {
           Carta
         </Button>
         <Button
+          onClick={cartaCatalaLinkHandler}
           sx={{
             width: '227px',
             height: '55px',
@@ -72,6 +93,7 @@ const Home = () => {
         </Button>
 
         <Button
+          onClick={menuLinkHandler}
           sx={{
             width: '227px',
             height: '55px',
