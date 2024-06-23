@@ -1,0 +1,112 @@
+{
+  "cocktails": [
+    {
+      "title": "50/50 gibson",
+      "description": "Vodka grey goose, tomate cherry & vermut seco noilly prat. Seco, con un toque mediterraneo.",
+      "price": 11
+    },
+    {
+      "title": "paloma spritz",
+      "description": "Tequila blanco cazadores, licor de flor de sauco st. germain, lima, pomelo ahumado, sour beer & soda. Floral, citrico & agradablemente ahumado. Burbujas simpaticas.",
+      "price": 11
+    },
+    {
+      "title": "hicky coco punch",
+      "description": "Shrub de remolacha & manzana verde, sorbete de limon, ron añejo santa teresa, vermut ambrato martini, pacharan & limon. Todo clarificado con leche de coco. Vegano, dulce & el preferido de la jefa, punto.",
+      "price": 13
+    },
+    {
+      "title": "torrija",
+      "description": "Limoncello, manzanilla de san lucar, hoja de olivo, eristoff vodka, limon, aceite de oliva & clara de huevo. Cremoso, notas citricas y amargas.",
+      "price": 12
+    },
+    {
+      "title": "carrotcake garibaldi",
+      "description": "Campari, jugo de zanahoria, crema de carrot cake & aceite esencial de limon. No hay mucho mas para decir, hay que probarlo.",
+      "price": 12
+    },
+    {
+      "title": "astoria",
+      "description": "Whisky escoces dewar´s white label, moscatel, oporto blanco, petalos de rosas & albaricoque, angostura. Para los amantes del manhattan con un pequeño twist.",
+      "price": 12
+    },
+    {
+      "title": "duquesa isabel",
+      "description": "Sherry blend (manzanilla de san lucar y amontillado), te de jazmin, vermut bianco martini, tonica clasica de la casa. Fresco & mineral, con toques salinos & amablemente amargo.",
+      "price": 12
+    },
+    {
+      "title": "philly vic punch",
+      "description": "Ron añejo santa teresa, melocoton caramelizado, oporto rojo, licor de melocoton, te de djarleig & limon. Complejo, dulce, delicadamente aromatizado.",
+      "price": 12
+    },
+    {
+      "title": "southside bumb",
+      "description": "Gin bombay dry, menta peperina, pepino, jarabe especiado de palomino fino de jerez, sorbete de naranja, cordial de agua & soda. Mejor que un mojito, más fresco, más verde, más chulo.",
+      "price": 12
+    },
+    {
+      "title": "la ultima palabra",
+      "description": "Mezcal union, chartreuse verde, maraschino, lima, espuma de piña & pimienta roja. Herbal, ahumado & tropical.",
+      "price": 12
+    },
+    {
+      "title": "piston",
+      "description": "Pisco aromatizado de cafe, marsala, tepache & tonica. Combinado inusual de sabores con notas de cafe.",
+      "price": 10
+    }
+  ],
+
+  "vinosNaturales": [
+    {
+      "title": "la figa",
+      "description": "Tinto, ligero y fresco, de garnacha y cariñena de pau y rabós.",
+      "price": {
+        "copa": "5€",
+        "botella": "25€"
+      }
+    },
+    {
+      "title": "panorama",
+      "description": "Blanco de la zona de limoux, ligero, aromático y muy agradable en boca, llena sin empalagar.",
+      "price": {
+        "copa": "5€",
+        "botella": "25€"
+      }
+    },
+    {
+      "title": "mandarines",
+      "description": "Orange de garnacha blanca derrapada.",
+      "price": {
+        "copa": "5€",
+        "botella": "25€"
+      }
+    },
+    {
+      "title": "blublub",
+      "description": "Espumoso de una sola fermentación, xarel.lo 100% de la familia ros marina en font-rubi, penedés.",
+      "price": {
+        "copa": "5€",
+        "botella": "25€"
+      }
+    },
+    {
+      "title": "virra",
+      "description": "Hecho con las pieles de la uva y refermentado con mosto.",
+      "price": {
+        "copa": "5€",
+        "botella": "25€"
+      }
+    }
+  ],
+  "cervezas": [
+    {
+      "title": "Almogaver vicius ipa",
+      "price": "4.30€"
+    },
+    {
+      "title": "Estrella galicia",
+      "price": "3€"
+    }
+  ]
+}

@@ -2,33 +2,9 @@
 
 import { Box } from '@mui/material';
 import React from 'react';
+import carta from '../../carta.json';
 
 const Carta: React.FC = () => {
-  const cocktails = [
-    {
-      titulo: 'Carrotcake garibaldi',
-      descripcion:
-        'cscscscs cscscscs cscscscs cscscscs cscscscs cscscscs cscscscs cscscscs cscscscscscscscs cscscscs cscscscs cscscscs cscscscs',
-      precio: 11,
-    },
-  ];
-
-  const vinos = [
-    {
-      titulo: 'Cocktails de autor',
-      descripcion: 'Esto es una descripcion',
-      precio: 11,
-    },
-  ];
-
-  const cervezas = [
-    {
-      titulo: 'Cocktails de autor',
-      descripcion: 'Esto es una descripcion',
-      precio: 11,
-    },
-  ];
-
   return (
     <Box
       className='newsReaderFont'
@@ -47,7 +23,7 @@ const Carta: React.FC = () => {
 
       {/* Items container*/}
       <Box sx={{ display: 'flex', flexDirection: 'column', marginTop: '20px' }}>
-        {cocktails.map((item, index) => (
+        {carta.cocktails.map((item, index) => (
           <Box key={index} sx={{ marginBottom: '10px' }}>
             {/* header */}
             <Box sx={{ display: 'flex', width: '100%' }}>
@@ -59,12 +35,12 @@ const Carta: React.FC = () => {
                   fontSize: '25px',
                 }}
               >
-                {item.titulo}
+                {item.title}
               </Box>
               <Box sx={{ display: 'flex', flexGrow: 1 }}></Box>
               <Box
                 sx={{ display: 'flex', alignItems: 'end' }}
-              >{`${item.precio} €`}</Box>
+              >{`${item.price} €`}</Box>
             </Box>
             {/*Description */}
             <Box
@@ -89,7 +65,7 @@ const Carta: React.FC = () => {
                   },
                 }}
               ></Box>
-              {item.descripcion}
+              {item.description}
             </Box>
           </Box>
         ))}
