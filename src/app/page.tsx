@@ -2,6 +2,7 @@
 
 import { Box, Button, Typography, useMediaQuery } from '@mui/material';
 import { useRouter } from 'next/navigation';
+import Link from 'next/link'
 
 const Home = () => {
   const isDesktop = useMediaQuery('(min-width:600px)');
@@ -53,8 +54,8 @@ const Home = () => {
           marginTop: '45px',
         }}
       >
+        <Link href='/carta'>
         <Button
-          onClick={cartaLinkHandler}
           sx={{
             width: '227px',
             height: '55px',
@@ -69,6 +70,7 @@ const Home = () => {
         >
           Carta
         </Button>
+        </Link>
         <Button
           onClick={cartaCatalaLinkHandler}
           sx={{
