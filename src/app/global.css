@@ -58,7 +58,7 @@ a {
 
 .interFont {
   font-family: var(--font-interFont) !important;
-  font-style:'italic'
+  font-style:'italic';
 }
 
 .newsReaderFont {
