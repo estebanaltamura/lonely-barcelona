@@ -51,7 +51,7 @@ const Carta: React.FC = () => {
                 sx={{
                   display: 'flex',
                   width: '140px',
-                  lineHeight: '23px',
+                  lineHeight: '25px',
                   flexWrap: 'wrap',
                   fontFamily: 'Happy Time Three',
                 }}
@@ -64,6 +64,7 @@ const Carta: React.FC = () => {
                   display: 'flex',
                   alignItems: 'end',
                   fontFamily: 'Happy Time Three',
+                  lineHeight: '25px',
                 }}
               >{`${item.price} €`}</Box>
             </Box>
