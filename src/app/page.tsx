@@ -64,10 +64,7 @@ const Home = () => {
             color: '#1C1C1C',
             fontSize: '22px',
             fontWeight: 600,
-            '&:hover': {
-              backgroundColor: '#526958',
-              color: 'white',
-            },
+            
           }}
         >
           Carta
@@ -83,10 +80,7 @@ const Home = () => {
             color: '#1C1C1C',
             fontSize: '22px',
             fontWeight: 600,
-            '&:hover': {
-              backgroundColor: '#526958',
-              color: 'white',
-            },
+           
           }}
         >
           Carta Catala
@@ -103,10 +97,7 @@ const Home = () => {
             color: '#1C1C1C',
             fontSize: '22px',
             fontWeight: 600,
-            '&:hover': {
-              backgroundColor: '#526958',
-              color: 'white',
-            },
+            
           }}
         >
           Menu
