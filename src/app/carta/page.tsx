@@ -1,6 +1,6 @@
 'use client';
 
-import { Box } from '@mui/material';
+import { Box, Typography } from '@mui/material';
 import React from 'react';
 import carta from '../../carta.json';
 
@@ -12,43 +12,67 @@ const Carta: React.FC = () => {
         display: 'flex',
         flexDirection: 'column',
         width: '100%',
-        padding: '0 13px',
+        padding: '0 27px 0 13px',
         color: '#FCF0DD',
       }}
     >
+      <Box
+        sx={{
+          display: 'flex',
+          flexDirection: 'row',
+          justifyContent: 'end',
+          width: '100%',
+          height: '150px',
+        }}
+      >
+        <img src='/logo.png' alt='' style={{ width: '150px' }} />
+      </Box>
       {/* Título de sección */}
-      <Box sx={{ width: '300px', color: 'white', fontSize: '41px' }}>
+      <Box
+        sx={{
+          width: '300px',
+          fontSize: '50px',
+          lineHeight: '25px',
+          fontFamily: 'Happy Time Three',
+          color: '#FCF0DD',
+          marginTop: '50px',
+        }}
+      >
         Cocktails de autor
       </Box>
 
       {/* Items container*/}
-      <Box sx={{ display: 'flex', flexDirection: 'column', marginTop: '20px' }}>
+      <Box sx={{ display: 'flex', flexDirection: 'column', marginTop: '35px' }}>
         {carta.cocktails.map((item, index) => (
-          <Box key={index} sx={{ marginBottom: '10px' }}>
+          <Box key={index} sx={{ marginBottom: '22px' }}>
             {/* header */}
-            <Box sx={{ display: 'flex', width: '100%' }}>
+            <Box sx={{ display: 'flex', width: '100%', fontSize: '32px' }}>
               <Box
                 sx={{
                   display: 'flex',
-                  width: '80px',
+                  width: '140px',
+                  lineHeight: '23px',
                   flexWrap: 'wrap',
-                  fontSize: '25px',
+                  fontFamily: 'Happy Time Three',
                 }}
               >
                 {item.title}
               </Box>
               <Box sx={{ display: 'flex', flexGrow: 1 }}></Box>
               <Box
-                sx={{ display: 'flex', alignItems: 'end' }}
+                sx={{
+                  display: 'flex',
+                  alignItems: 'end',
+                  fontFamily: 'Happy Time Three',
+                }}
               >{`${item.price} €`}</Box>
             </Box>
             {/*Description */}
             <Box
               sx={{
                 position: 'relative',
-                lineHeight: '18px',
-                fontSize: '14px',
-                marginTop: '7px',
+
+                marginTop: '13px',
                 paddingLeft: '8px',
               }}
             >
@@ -58,14 +82,39 @@ const Carta: React.FC = () => {
                     content: '""',
                     position: 'absolute',
                     left: 0,
-                    top: '10%',
-                    bottom: '10%',
+                    top: '4%',
+                    bottom: '3%',
                     width: '1px',
                     backgroundColor: '#FCF0DD',
                   },
                 }}
               ></Box>
-              {item.description}
+
+              {item.description.map((paragraph, index) => {
+                if (paragraph[0] === '=') {
+                  return (
+                    <>
+                      <br />
+                      <Typography
+                        className='majorMonoDisplayFont'
+                        sx={{ lineHeight: '14px', fontSize: '12px' }}
+                        key={index}
+                      >
+                        {paragraph.slice(1)}
+                      </Typography>
+                    </>
+                  );
+                }
+                return (
+                  <Typography
+                    className='majorMonoDisplayFont'
+                    sx={{ lineHeight: '14px', fontSize: '12px' }}
+                    key={index}
+                  >
+                    {paragraph}
+                  </Typography>
+                );
+              })}
             </Box>
           </Box>
         ))}

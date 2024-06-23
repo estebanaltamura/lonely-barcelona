@@ -16,7 +16,7 @@
 }
 
 body {
-  font-family: var(--font-openSans), sans-serif !important;
+  font-family: var(--font-openSans), 'Happy Time Three', sans-serif !important;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -58,11 +58,15 @@ a {
 
 .interFont {
   font-family: var(--font-interFont) !important;
-  font-style:'italic';
+  font-style: 'italic';
 }
 
 .newsReaderFont {
   font-family: var(--font-newsReaderFont) !important;
+}
+
+.majorMonoDisplayFont {
+  font-family: var(--font-majorMonoDisplayFont) !important;
 }
 
 @media (min-width: 600px) {
@@ -70,4 +74,11 @@ a {
     padding: var(--main-padding-top-bottom-desktop)
       var(--main-padding-left-right-desktop);
   }
+}
+
+@font-face {
+  font-family: 'Happy Time Three';
+  src: url('/fonts/HappyTimeThree.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
 }
