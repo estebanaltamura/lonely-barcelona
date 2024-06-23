@@ -2,7 +2,7 @@
 
 import { Box, Button, Typography, useMediaQuery } from '@mui/material';
 import { useRouter } from 'next/navigation';
-import Link from 'next/link'
+import Link from 'next/link';
 
 const Home = () => {
   const isDesktop = useMediaQuery('(min-width:600px)');
@@ -34,11 +34,12 @@ const Home = () => {
       </Box>
 
       <Typography
-        className='newsReaderFont'
         variant='body1'
         sx={{
           color: '#FDF0DE',
           fontSize: isDesktop ? '36px' : '24px',
+          fontFamily: 'NewsReader',
+
           textAlign: 'center',
           marginTop: '10px',
         }}
@@ -55,21 +56,20 @@ const Home = () => {
         }}
       >
         <Link href='/carta'>
-        <Button
-          sx={{
-            width: '227px',
-            height: '55px',
-            borderRadius: '8px',
-            backgroundColor: '#FDF0DE',
-            textTransform: 'none',
-            color: '#1C1C1C',
-            fontSize: '22px',
-            fontWeight: 600,
-            
-          }}
-        >
-          Carta
-        </Button>
+          <Button
+            sx={{
+              width: '227px',
+              height: '55px',
+              borderRadius: '8px',
+              backgroundColor: '#FDF0DE',
+              textTransform: 'none',
+              color: '#1C1C1C',
+              fontSize: '22px',
+              fontWeight: 600,
+            }}
+          >
+            Carta
+          </Button>
         </Link>
         <Button
           onClick={cartaCatalaLinkHandler}
@@ -82,7 +82,6 @@ const Home = () => {
             color: '#1C1C1C',
             fontSize: '22px',
             fontWeight: 600,
-           
           }}
         >
           Carta Catala
@@ -99,7 +98,6 @@ const Home = () => {
             color: '#1C1C1C',
             fontSize: '22px',
             fontWeight: 600,
-            
           }}
         >
           Menu

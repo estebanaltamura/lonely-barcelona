@@ -35,7 +35,7 @@ const Carta: React.FC = () => {
           lineHeight: '25px',
           fontFamily: 'Happy Time Three',
           color: '#FCF0DD',
-          marginTop: '50px',
+          marginTop: '35px',
         }}
       >
         Cocktails de autor
@@ -94,16 +94,15 @@ const Carta: React.FC = () => {
               {item.description.map((paragraph, index) => {
                 if (paragraph[0] === '=') {
                   return (
-                    <>
+                    <Box key={index}>
                       <br />
                       <Typography
                         className='majorMonoDisplayFont'
                         sx={{ lineHeight: '14px', fontSize: '12px' }}
-                        key={index}
                       >
                         {paragraph.slice(1)}
                       </Typography>
-                    </>
+                    </Box>
                   );
                 }
                 return (

@@ -1,5 +1,5 @@
 import type { Metadata } from 'next';
-import { Inter, Newsreader, Major_Mono_Display } from 'next/font/google';
+import { Inter, Major_Mono_Display } from 'next/font/google';
 
 import './global.css';
 import Footer from './_noPages/views/footer/Footer';
@@ -8,12 +8,6 @@ const interFont = Inter({
   subsets: ['latin'],
   weight: ['300', '400', '600', '700'],
   variable: '--font-interFont',
-});
-
-const newsreader = Newsreader({
-  subsets: ['latin'],
-  weight: ['300', '400', '600', '700'],
-  variable: '--font-newsReaderFont',
 });
 
 const majorMonoDisplay = Major_Mono_Display({
@@ -34,9 +28,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang='en'>
-      <body
-        className={`${interFont.variable} ${newsreader.variable} ${majorMonoDisplay.variable}`}
-      >
+      <body className={`${interFont.variable} ${majorMonoDisplay.variable}`}>
         {/* <header>
           <Header />
         </header> */}
