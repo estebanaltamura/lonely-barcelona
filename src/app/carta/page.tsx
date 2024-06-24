@@ -12,7 +12,7 @@ const Carta: React.FC = () => {
         display: 'flex',
         flexDirection: 'column',
         width: '100%',
-        padding: '0 15px 0 15px',
+        padding: '0 20px 0 20px',
         color: '#FCF0DD',
       }}
     >
@@ -33,7 +33,7 @@ const Carta: React.FC = () => {
       <Box
         sx={{
           width: '240px',
-          fontSize: '50px',
+          fontSize: '55px',
           lineHeight: '29px',
           fontFamily: 'Happy Time Three',
           color: '#FCF0DD',
@@ -44,9 +44,9 @@ const Carta: React.FC = () => {
       </Box>
 
       {/* Items container*/}
-      <Box sx={{ display: 'flex', flexDirection: 'column', marginTop: '35px' }}>
+      <Box sx={{ display: 'flex', flexDirection: 'column', marginTop: '45px' }}>
         {carta.cocktails.map((item, index) => (
-          <Box key={index} sx={{ marginBottom: '26px' }}>
+          <Box key={index} sx={{ marginBottom: '35px' }}>
             {/* header */}
             <Box sx={{ display: 'flex', width: '100%', fontSize: '32px' }}>
               <Box
