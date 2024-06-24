@@ -45,7 +45,7 @@ const Home = () => {
             className='majorMonoDisplayFont'
             sx={{
               width: '227px',
-              height: '55px',
+              height: '50px',
               borderRadius: '8px',
               backgroundColor: '#FDF0DE',
               textTransform: 'none',
@@ -71,7 +71,7 @@ const Home = () => {
             className='majorMonoDisplayFont'
             sx={{
               width: '227px',
-              height: '55px',
+              height: '50px',
               borderRadius: '8px',
               backgroundColor: '#FDF0DE',
               textTransform: 'none',
@@ -97,7 +97,7 @@ const Home = () => {
             className='majorMonoDisplayFont'
             sx={{
               width: '227px',
-              height: '55px',
+              height: '50px',
               borderRadius: '8px',
               backgroundColor: '#FDF0DE',
               textTransform: 'none',
