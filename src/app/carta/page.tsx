@@ -25,7 +25,7 @@ const Carta: React.FC = () => {
           height: '150px',
         }}
       >
-        <img src='/cartaImage.png' alt='' style={{ width: '150px' }} />
+        <img src='/logo.png' alt='' style={{ width: '150px' }} />
       </Box>
       {/* Título de sección */}
       <Box
@@ -44,7 +44,7 @@ const Carta: React.FC = () => {
       {/* Items container*/}
       <Box sx={{ display: 'flex', flexDirection: 'column', marginTop: '35px' }}>
         {carta.cocktails.map((item, index) => (
-          <Box key={index} sx={{ marginBottom: '22px' }}>
+          <Box key={index} sx={{ marginBottom: '26px' }}>
             {/* header */}
             <Box sx={{ display: 'flex', width: '100%', fontSize: '32px' }}>
               <Box
