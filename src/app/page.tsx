@@ -1,24 +1,10 @@
 'use client';
 
 import { Box, Button, Typography, useMediaQuery } from '@mui/material';
-import { useRouter } from 'next/navigation';
 import Link from 'next/link';
 
 const Home = () => {
   const isDesktop = useMediaQuery('(min-width:600px)');
-  const router = useRouter();
-
-  const cartaLinkHandler = () => {
-    router.push('/carta');
-  };
-
-  const cartaCatalaLinkHandler = () => {
-    router.push('/cartaCatala');
-  };
-
-  const menuLinkHandler = () => {
-    router.push('/menu');
-  };
 
   return (
     <Box
@@ -38,13 +24,12 @@ const Home = () => {
         sx={{
           color: '#FDF0DE',
           fontSize: isDesktop ? '36px' : '24px',
-          fontFamily: 'NewsReader',
-
+          fontFamily: 'Happy Time Three',
           textAlign: 'center',
           marginTop: '10px',
         }}
       >
-        We’re <i>cocktails</i>, <i>music</i>, and <i>groove</i>.
+        We’re cocktails, music, and groove.
       </Typography>
 
       <Box
@@ -55,8 +40,9 @@ const Home = () => {
           marginTop: '45px',
         }}
       >
-        <Link href='/carta'>
+        <Link href='/carta' passHref>
           <Button
+            className='majorMonoDisplayFont'
             sx={{
               width: '227px',
               height: '55px',
@@ -64,46 +50,79 @@ const Home = () => {
               backgroundColor: '#FDF0DE',
               textTransform: 'none',
               color: '#1C1C1C',
-              fontSize: '22px',
+              fontSize: '18px',
               fontWeight: 600,
+              '&:hover': {
+                backgroundColor: '#1C1C1C',
+                color: '#FDF0DE',
+              },
+              '&:active': {
+                backgroundColor: '#1C1C1C',
+                color: '#FDF0DE',
+              },
             }}
           >
-            Carta
+            carta
           </Button>
         </Link>
-        <Button
-          onClick={cartaCatalaLinkHandler}
-          sx={{
-            width: '227px',
-            height: '55px',
-            borderRadius: '8px',
-            backgroundColor: '#FDF0DE',
-            textTransform: 'none',
-            color: '#1C1C1C',
-            fontSize: '22px',
-            fontWeight: 600,
-          }}
-        >
-          Carta Catala
-        </Button>
 
-        <Button
-          onClick={menuLinkHandler}
-          sx={{
-            width: '227px',
-            height: '55px',
-            borderRadius: '8px',
-            backgroundColor: '#FDF0DE',
-            textTransform: 'none',
-            color: '#1C1C1C',
-            fontSize: '22px',
-            fontWeight: 600,
-          }}
-        >
-          Menu
-        </Button>
+        <Link href='/carta-catala' passHref>
+          <Button
+            className='majorMonoDisplayFont'
+            sx={{
+              width: '227px',
+              height: '55px',
+              borderRadius: '8px',
+              backgroundColor: '#FDF0DE',
+              textTransform: 'none',
+              color: '#1C1C1C',
+              fontSize: '18px',
+              fontWeight: 600,
+              '&:hover': {
+                backgroundColor: '#1C1C1C',
+                color: '#FDF0DE',
+              },
+              '&:active': {
+                backgroundColor: '#1C1C1C',
+                color: '#FDF0DE',
+              },
+            }}
+          >
+            carta catala
+          </Button>
+        </Link>
+
+        <Link href='/menu' passHref>
+          <Button
+            className='majorMonoDisplayFont'
+            sx={{
+              width: '227px',
+              height: '55px',
+              borderRadius: '8px',
+              backgroundColor: '#FDF0DE',
+              textTransform: 'none',
+              color: '#1C1C1C',
+              fontSize: '18px',
+              fontWeight: 600,
+              '&:hover': {
+                backgroundColor: '#1C1C1C',
+                color: '#FDF0DE',
+              },
+              '&:active': {
+                backgroundColor: '#1C1C1C',
+                color: '#FDF0DE',
+              },
+            }}
+          >
+            menu
+          </Button>
+        </Link>
       </Box>
-      <a href='https://www.instagram.com/lonely.bcn' target='_blank'>
+      <a
+        href='https://www.instagram.com/lonely.bcn'
+        target='_blank'
+        rel='noopener noreferrer'
+      >
         <img
           src='/instagramIcon4.svg'
           alt=''

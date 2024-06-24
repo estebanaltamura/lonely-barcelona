@@ -252,9 +252,12 @@ const Carta: React.FC = () => {
               <Box sx={{ display: 'flex', flexGrow: 1 }}></Box>
               <Box
                 sx={{
+                  position: 'relative',
                   display: 'flex',
                   alignItems: 'end',
+                  top: '4px',
                   fontFamily: 'Happy Time Three',
+                  fontSize: '18px',
                   lineHeight: '25px',
                 }}
               >
