@@ -115,7 +115,7 @@ const Carta: React.FC = () => {
           display: 'flex',
           width: '100%',
           justifyContent: 'center',
-          marginTop: '13px',
+          margin: '30px 0 20px 0',
         }}
       >
         <Divider
@@ -208,7 +208,7 @@ const Carta: React.FC = () => {
           display: 'flex',
           width: '100%',
           justifyContent: 'center',
-          marginTop: '13px',
+          margin: '30px 0 20px 0',
         }}
       >
         <Divider
