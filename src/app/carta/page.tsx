@@ -159,13 +159,15 @@ const Carta: React.FC = () => {
                 sx={{
                   position: 'relative',
                   display: 'flex',
-                  top: '7px',
+                  top: '4px',
                   fontFamily: 'Happy Time Three',
                   fontSize: '22px',
                   lineHeight: '25px',
                 }}
               >
-                {`copa ${item.price.copa} € · botella ${item.price.botella} €`}
+                {`copa ${item.price.copa} €`}
+                <span>&nbsp;</span>·<span>&nbsp;</span>
+                {`botella ${item.price.botella} €`}
                 <span>&nbsp;</span>
               </Box>
             </Box>
