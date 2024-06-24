@@ -1,6 +1,6 @@
 'use client';
 
-import { Box, Typography } from '@mui/material';
+import { Box, Divider, Typography } from '@mui/material';
 import React from 'react';
 import carta from '../../carta.json';
 
@@ -110,6 +110,19 @@ const Carta: React.FC = () => {
         ))}
       </Box>
 
+      <Box
+        sx={{
+          display: 'flex',
+          width: '100%',
+          justifyContent: 'center',
+          marginTop: '13px',
+        }}
+      >
+        <Divider
+          sx={{ width: '80%', height: '1.5px', backgroundColor: '#FCF0DD' }}
+        />
+      </Box>
+
       {/* Título de sección */}
       <Box
         sx={{
@@ -188,6 +201,19 @@ const Carta: React.FC = () => {
             </Box>
           </Box>
         ))}
+      </Box>
+
+      <Box
+        sx={{
+          display: 'flex',
+          width: '100%',
+          justifyContent: 'center',
+          marginTop: '13px',
+        }}
+      >
+        <Divider
+          sx={{ width: '80%', height: '1.5px', backgroundColor: '#FCF0DD' }}
+        />
       </Box>
 
       {/* Título de sección */}
