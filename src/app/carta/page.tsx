@@ -37,14 +37,14 @@ const Carta: React.FC = () => {
           lineHeight: '29px',
           fontFamily: 'Happy Time Three',
           color: '#FCF0DD',
-          marginTop: '35px',
+          marginTop: '45px',
         }}
       >
         Cocktails de autor
       </Box>
 
       {/* Items container*/}
-      <Box sx={{ display: 'flex', flexDirection: 'column', marginTop: '45px' }}>
+      <Box sx={{ display: 'flex', flexDirection: 'column', marginTop: '55px' }}>
         {carta.cocktails.map((item, index) => (
           <Box key={index} sx={{ marginBottom: '35px' }}>
             {/* header */}
