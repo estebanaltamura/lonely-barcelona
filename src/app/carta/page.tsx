@@ -148,7 +148,7 @@ const Carta: React.FC = () => {
                   display: 'flex',
                   top: '7px',
                   fontFamily: 'Happy Time Three',
-                  fontSize: '15px',
+                  fontSize: '20px',
                   lineHeight: '25px',
                 }}
               >
