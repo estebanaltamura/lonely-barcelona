@@ -161,11 +161,11 @@ const Carta: React.FC = () => {
                   display: 'flex',
                   top: '7px',
                   fontFamily: 'Happy Time Three',
-                  fontSize: '20px',
+                  fontSize: '22px',
                   lineHeight: '25px',
                 }}
               >
-                {`copa ${item.price.copa} €  · botella ${item.price.botella} €`}
+                {`copa ${item.price.copa} € · botella ${item.price.botella} €`}
                 <span>&nbsp;</span>
               </Box>
             </Box>
