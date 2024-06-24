@@ -18,8 +18,8 @@ const Carta: React.FC = () => {
     >
       <Box
         sx={{
-          display: 'flex',
           position: 'relative',
+          display: 'flex',
           flexDirection: 'row',
           justifyContent: 'end',
           width: '100%',
@@ -40,20 +40,7 @@ const Carta: React.FC = () => {
           marginTop: '35px',
         }}
       >
-        Cocktails
-      </Box>
-
-      <Box
-        sx={{
-          width: '240px',
-          fontSize: '50px',
-          lineHeight: '29px',
-          fontFamily: 'Happy Time Three',
-          color: '#FCF0DD',
-          marginLeft: '7px',
-        }}
-      >
-        de autor
+        Cocktails de autor
       </Box>
 
       {/* Items container*/}
