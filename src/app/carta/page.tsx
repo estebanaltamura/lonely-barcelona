@@ -109,6 +109,156 @@ const Carta: React.FC = () => {
           </Box>
         ))}
       </Box>
+
+      {/* Título de sección */}
+      <Box
+        sx={{
+          width: '240px',
+          fontSize: '55px',
+          lineHeight: '29px',
+          fontFamily: 'Happy Time Three',
+          color: '#FCF0DD',
+          marginTop: '45px',
+        }}
+      >
+        Vinos naturales
+      </Box>
+
+      {/* Items container*/}
+      <Box sx={{ display: 'flex', flexDirection: 'column', marginTop: '55px' }}>
+        {carta.vinosNaturales.map((item, index) => (
+          <Box key={index} sx={{ marginBottom: '35px' }}>
+            {/* header */}
+            <Box sx={{ display: 'flex', width: '100%', fontSize: '32px' }}>
+              <Box
+                sx={{
+                  display: 'flex',
+                  width: '140px',
+                  lineHeight: '25px',
+                  flexWrap: 'wrap',
+                  fontFamily: 'Happy Time Three',
+                }}
+              >
+                {item.title}
+              </Box>
+              <Box sx={{ display: 'flex', flexGrow: 1 }}></Box>
+              <Box
+                sx={{
+                  position: 'relative',
+                  display: 'flex',
+                  top: '7px',
+                  fontFamily: 'Happy Time Three',
+                  fontSize: '15px',
+                  lineHeight: '25px',
+                }}
+              >
+                {`copa ${item.price.copa} €  · botella ${item.price.botella} €`}
+                <span>&nbsp;</span>
+              </Box>
+            </Box>
+            {/*Description */}
+            <Box
+              sx={{
+                position: 'relative',
+
+                marginTop: '13px',
+                paddingLeft: '8px',
+              }}
+            >
+              <Box
+                sx={{
+                  '::before': {
+                    content: '""',
+                    position: 'absolute',
+                    left: 0,
+                    top: '4%',
+                    bottom: '2%',
+                    width: '1px',
+                    backgroundColor: '#FCF0DD',
+                  },
+                }}
+              ></Box>
+
+              <Typography
+                sx={{ fontSize: '12px', lineHeight: '13px', marginTop: '19px' }}
+                className='majorMonoDisplayFont'
+              >
+                {item.description}
+              </Typography>
+            </Box>
+          </Box>
+        ))}
+      </Box>
+
+      {/* Título de sección */}
+      <Box
+        sx={{
+          width: '240px',
+          fontSize: '55px',
+          lineHeight: '29px',
+          fontFamily: 'Happy Time Three',
+          color: '#FCF0DD',
+          marginTop: '45px',
+        }}
+      >
+        Cervezas
+      </Box>
+
+      {/* Items container*/}
+      <Box sx={{ display: 'flex', flexDirection: 'column', marginTop: '55px' }}>
+        {carta.cervezas.map((item, index) => (
+          <Box key={index} sx={{ marginBottom: '35px' }}>
+            {/* header */}
+            <Box sx={{ display: 'flex', width: '100%', fontSize: '32px' }}>
+              <Box
+                sx={{
+                  display: 'flex',
+                  width: '140px',
+                  lineHeight: '25px',
+                  flexWrap: 'wrap',
+                  fontFamily: 'Happy Time Three',
+                }}
+              >
+                {item.title}
+              </Box>
+              <Box sx={{ display: 'flex', flexGrow: 1 }}></Box>
+              <Box
+                sx={{
+                  display: 'flex',
+                  alignItems: 'end',
+                  fontFamily: 'Happy Time Three',
+                  lineHeight: '25px',
+                }}
+              >
+                {item.price} €<span>&nbsp;</span>
+              </Box>
+            </Box>
+            {/*Description */}
+            <Box
+              sx={{
+                position: 'relative',
+
+                marginTop: '13px',
+                paddingLeft: '8px',
+              }}
+            >
+              <Box
+                sx={{
+                  '::before': {
+                    content: '""',
+                    position: 'absolute',
+                    left: 0,
+                    top: '4%',
+                    bottom: '2%',
+                    width: '1px',
+                    backgroundColor: '#FCF0DD',
+                  },
+                }}
+              ></Box>
+            </Box>
+          </Box>
+        ))}
+      </Box>
     </Box>
   );
 };
