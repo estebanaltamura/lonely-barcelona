@@ -12,7 +12,7 @@ const Carta: React.FC = () => {
         display: 'flex',
         flexDirection: 'column',
         width: '100%',
-        padding: '0 27px 0 13px',
+        padding: '0 15px 0 15px',
         color: '#FCF0DD',
       }}
     >
@@ -25,7 +25,7 @@ const Carta: React.FC = () => {
           height: '150px',
         }}
       >
-        <img src='/logo.png' alt='' style={{ width: '150px' }} />
+        <img src='/cartaImage.png' alt='' style={{ width: '150px' }} />
       </Box>
       {/* Título de sección */}
       <Box
@@ -66,7 +66,9 @@ const Carta: React.FC = () => {
                   fontFamily: 'Happy Time Three',
                   lineHeight: '25px',
                 }}
-              >{`${item.price} €`}</Box>
+              >
+                {item.price} €<span>&nbsp;</span>
+              </Box>
             </Box>
             {/*Description */}
             <Box
@@ -84,37 +86,23 @@ const Carta: React.FC = () => {
                     position: 'absolute',
                     left: 0,
                     top: '4%',
-                    bottom: '3%',
+                    bottom: '2%',
                     width: '1px',
                     backgroundColor: '#FCF0DD',
                   },
                 }}
               ></Box>
 
-              {item.description.map((paragraph, index) => {
-                if (paragraph[0] === '=') {
-                  return (
-                    <Box key={index}>
-                      <br />
-                      <Typography
-                        className='majorMonoDisplayFont'
-                        sx={{ lineHeight: '14px', fontSize: '12px' }}
-                      >
-                        {paragraph.slice(1)}
-                      </Typography>
-                    </Box>
-                  );
-                }
-                return (
-                  <Typography
-                    className='majorMonoDisplayFont'
-                    sx={{ lineHeight: '14px', fontSize: '12px' }}
-                    key={index}
-                  >
-                    {paragraph}
-                  </Typography>
-                );
-              })}
+              <Typography
+                sx={{ fontSize: '12px', lineHeight: '13px', marginTop: '19px' }}
+                className='majorMonoDisplayFont'
+              >
+                {item.description}
+              </Typography>
+              <Typography
+                sx={{ fontSize: '12px', marginTop: '11px', lineHeight: '13px' }}
+                className='majorMonoDisplayFont'
+              >{`·${item.flavors}`}</Typography>
             </Box>
           </Box>
         ))}
