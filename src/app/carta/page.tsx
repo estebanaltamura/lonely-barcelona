@@ -19,10 +19,12 @@ const Carta: React.FC = () => {
       <Box
         sx={{
           display: 'flex',
+          position: 'relative',
           flexDirection: 'row',
           justifyContent: 'end',
           width: '100%',
           height: '150px',
+          top: '-5px',
         }}
       >
         <img src='/logo.png' alt='' style={{ width: '150px' }} />
@@ -30,15 +32,28 @@ const Carta: React.FC = () => {
       {/* Título de sección */}
       <Box
         sx={{
-          width: '300px',
+          width: '240px',
           fontSize: '50px',
-          lineHeight: '25px',
+          lineHeight: '29px',
           fontFamily: 'Happy Time Three',
           color: '#FCF0DD',
           marginTop: '35px',
         }}
       >
-        Cocktails de autor
+        Cocktails
+      </Box>
+
+      <Box
+        sx={{
+          width: '240px',
+          fontSize: '50px',
+          lineHeight: '29px',
+          fontFamily: 'Happy Time Three',
+          color: '#FCF0DD',
+          marginLeft: '7px',
+        }}
+      >
+        de autor
       </Box>
 
       {/* Items container*/}
