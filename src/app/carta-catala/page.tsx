@@ -119,7 +119,7 @@ const CartaCatala: React.FC = () => {
         }}
       >
         <Divider
-          sx={{ width: '80%', height: '1.5px', backgroundColor: '#FCF0DD' }}
+          sx={{ width: '100%', height: '1.5px', backgroundColor: '#FCF0DD' }}
         />
       </Box>
 
@@ -214,7 +214,7 @@ const CartaCatala: React.FC = () => {
         }}
       >
         <Divider
-          sx={{ width: '80%', height: '1.5px', backgroundColor: '#FCF0DD' }}
+          sx={{ width: '100%', height: '1.5px', backgroundColor: '#FCF0DD' }}
         />
       </Box>
 
