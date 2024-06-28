@@ -1,0 +1,123 @@
+{
+  "cocktails": [
+    {
+      "title": "50/50 gibson",
+      "description": "vodka grey goose, tomàquet cherry & vermut",
+      "flavors": "sec noilly prat. sec, amb un toc mediterrani.",
+      "price": 11
+    },
+    {
+      "title": "paloma spritz",
+      "description": "tequila blanco cazadores, licor de flor de saüc st. germain, llima, aranja fumat, sour beer & soda.",
+      "flavors": "floral, cítric & agradablement fumat. bombolles simpàtiques.",
+      "price": 11
+    },
+    {
+      "title": "hicky coco punch",
+      "description": "shrub de remolatxa & poma verda, sorbet de llima, rom anyenc santa teresa, vermut ambrato martini, patxaran & llima. tot clarificat amb llet de coco.",
+      "flavors": "vegà, dolç & el preferit de la jefa, punt.",
+      "price": 13
+    },
+    {
+      "title": "torrija",
+      "description": "limoncello, camamilla de sanlúcar, fulla d'olivera, eristoff vodka, llima, oli d'oliva & clara d'ou.",
+      "flavors": "cremós, notes cítriques i amargues.",
+      "price": 12
+    },
+    {
+      "title": "carrotcake garibaldi",
+      "description": "campari, suc de pastanaga, crema de carrot cake & oli essencial de llimona.",
+      "flavors": "no hi ha molt més a dir, s'ha de provar.",
+      "price": 12
+    },
+    {
+      "title": "astoria",
+      "description": "whisky escocès dewar´s white label, moscatell, oporto blanc, pètals de roses & albercoc, angostura.",
+      "flavors": "per als amants del manhattan amb un petit twist.",
+      "price": 12
+    },
+    {
+      "title": "duquesa isabel",
+      "description": "sherry blend (camamilla de sanlúcar i amontillat), te de gessamí, vermut bianco martini, tònica clàssica de la casa.",
+      "flavors": "fresc & mineral, amb tocs salins & amablement amarg.",
+      "price": 12
+    },
+    {
+      "title": "philly vic punch",
+      "description": "rom anyenc santa teresa, préssec caramelitzat, oporto vermell, licor de préssec, te de djarleig & llima.",
+      "flavors": "complex, dolç, delicadament aromatitzat.",
+      "price": 12
+    },
+    {
+      "title": "southside bumb",
+      "description": "gin bombay dry, menta peperina, cogombre, xarop especiat de palomino fi de jerez, sorbet de taronja, cordial d'aigua & soda.",
+      "flavors": "millor que un mojito, més fresc, més verd, més xulo.",
+      "price": 12
+    },
+    {
+      "title": "la última palabra",
+      "description": "mezcal union, chartreuse verd, maraschino, llima, escuma de pinya & pebre vermell.",
+      "flavors": "herbal, fumat & tropical.",
+      "price": 12
+    },
+    {
+      "title": "piston",
+      "description": "pisco aromatitzat de cafè, marsala, tepache & tònica.",
+      "flavors": "combinació inusual de sabors amb notes de cafè.",
+      "price": 10
+    }
+  ],
+
+  "vinosNaturales": [
+    {
+      "title": "la figa",
+      "description": "negre, lleuger i fresc, de garnatxa i carinyena de pau i rabós.",
+      "price": {
+        "copa": "5",
+        "botella": "25"
+      }
+    },
+    {
+      "title": "panorama",
+      "description": "blanc de la zona de limoux, lleuger, aromàtic i molt agradable en boca, omple sense empalagar.",
+      "price": {
+        "copa": "5",
+        "botella": "25"
+      }
+    },
+    {
+      "title": "mandarines",
+      "description": "orange de garnatxa blanca derrapada.",
+      "price": {
+        "copa": "5",
+        "botella": "25"
+      }
+    },
+    {
+      "title": "blublub",
+      "description": "espumós d'una sola fermentació, xarel.lo 100% de la família ros marina en font-rubí, penedés.",
+      "price": {
+        "copa": "5",
+        "botella": "25"
+      }
+    },
+    {
+      "title": "virra",
+      "description": "fet amb les pells del raïm i refermentat amb most.",
+      "price": {
+        "copa": "5",
+        "botella": "25"
+      }
+    }
+  ],
+  "cervezas": [
+    {
+      "title": "almogaver vicius ipa",
+      "price": "4.30"
+    },
+    {
+      "title": "estrella galicia",
+      "price": "3"
+    }
+  ]
+}

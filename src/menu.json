@@ -1,0 +1,123 @@
+{
+  "cocktails": [
+    {
+      "title": "50/50 gibson",
+      "description": "vodka grey goose, cherry tomato & vermouth",
+      "flavors": "dry noilly prat. dry, with a Mediterranean touch.",
+      "price": 11
+    },
+    {
+      "title": "paloma spritz",
+      "description": "tequila blanco cazadores, elderflower liqueur st. germain, lime, smoked grapefruit, sour beer & soda.",
+      "flavors": "floral, citric & pleasantly smoky. bubbly and cheerful.",
+      "price": 11
+    },
+    {
+      "title": "hicky coco punch",
+      "description": "beet & green apple shrub, lemon sorbet, aged rum santa teresa, martini ambrato vermouth, patxaran & lemon. all clarified with coconut milk.",
+      "flavors": "vegan, sweet & the boss's favorite, period.",
+      "price": 13
+    },
+    {
+      "title": "torrija",
+      "description": "limoncello, manzanilla de sanlucar, olive leaf, eristoff vodka, lemon, olive oil & egg white.",
+      "flavors": "creamy, with citric and bitter notes.",
+      "price": 12
+    },
+    {
+      "title": "carrotcake garibaldi",
+      "description": "campari, carrot juice, carrot cake cream & lemon essential oil.",
+      "flavors": "not much else to say, you have to try it.",
+      "price": 12
+    },
+    {
+      "title": "astoria",
+      "description": "dewar's white label scotch whisky, muscat, white port, rose petals & apricot, angostura.",
+      "flavors": "for manhattan lovers with a little twist.",
+      "price": 12
+    },
+    {
+      "title": "duquesa isabel",
+      "description": "sherry blend (manzanilla de sanlucar & amontillado), jasmine tea, martini bianco vermouth, house tonic.",
+      "flavors": "fresh & mineral, with saline touches & pleasantly bitter.",
+      "price": 12
+    },
+    {
+      "title": "philly vic punch",
+      "description": "aged rum santa teresa, caramelized peach, red port, peach liqueur, darjeeling tea & lemon.",
+      "flavors": "complex, sweet, delicately flavored.",
+      "price": 12
+    },
+    {
+      "title": "southside bumb",
+      "description": "gin bombay dry, peppermint, cucumber, spiced syrup from jerez palomino fino, orange sorbet, water cordial & soda.",
+      "flavors": "better than a mojito, fresher, greener, cooler.",
+      "price": 12
+    },
+    {
+      "title": "la última palabra",
+      "description": "mezcal union, green chartreuse, maraschino, lime, pineapple foam & red pepper.",
+      "flavors": "herbal, smoky & tropical.",
+      "price": 12
+    },
+    {
+      "title": "piston",
+      "description": "coffee-infused pisco, marsala, tepache & tonic.",
+      "flavors": "unusual flavor combination with coffee notes.",
+      "price": 10
+    }
+  ],
+
+  "vinosNaturales": [
+    {
+      "title": "la figa",
+      "description": "red, light and fresh, from garnacha and cariñena of pau and rabós.",
+      "price": {
+        "copa": "5",
+        "botella": "25"
+      }
+    },
+    {
+      "title": "panorama",
+      "description": "white from the limoux area, light, aromatic and very pleasant in the mouth, fills without cloying.",
+      "price": {
+        "copa": "5",
+        "botella": "25"
+      }
+    },
+    {
+      "title": "mandarines",
+      "description": "orange wine from destemmed garnacha blanca.",
+      "price": {
+        "copa": "5",
+        "botella": "25"
+      }
+    },
+    {
+      "title": "blublub",
+      "description": "sparkling wine of a single fermentation, xarel.lo 100% from the ros marina family in font-rubi, penedés.",
+      "price": {
+        "copa": "5",
+        "botella": "25"
+      }
+    },
+    {
+      "title": "virra",
+      "description": "made with the grape skins and refermented with must.",
+      "price": {
+        "copa": "5",
+        "botella": "25"
+      }
+    }
+  ],
+  "cervezas": [
+    {
+      "title": "almogaver vicius ipa",
+      "price": "4.30"
+    },
+    {
+      "title": "estrella galicia",
+      "price": "3"
+    }
+  ]
+}
