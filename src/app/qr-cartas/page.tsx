@@ -5,7 +5,7 @@ import QRCode from 'qrcode.react';
 import { Box, Button } from '@mui/material';
 
 const MyQRCodeComponent = () => {
-  const url = 'https://www.thelonelybar.com';
+  const url = 'https://www.thelonelybar.com/cartas';
   const qrRef = useRef<HTMLDivElement>(null);
 
   const downloadQRCode = () => {
