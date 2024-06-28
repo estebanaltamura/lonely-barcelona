@@ -92,7 +92,7 @@ const Home = () => {
           </Button>
         </Link>
 
-        <Link href='/menu' passHref>
+        <Link href='/carta-ingles' passHref>
           <Button
             className='majorMonoDisplayFont'
             sx={{
@@ -114,7 +114,7 @@ const Home = () => {
               },
             }}
           >
-            menu
+            carta ingles
           </Button>
         </Link>
       </Box>
