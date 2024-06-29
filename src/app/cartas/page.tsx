@@ -40,7 +40,7 @@ const Home = () => {
           marginTop: '45px',
         }}
       >
-        <Link href='/carta' passHref>
+        <Link href='/cartas/carta' passHref>
           <Button
             className='majorMonoDisplayFont'
             sx={{
@@ -66,7 +66,7 @@ const Home = () => {
           </Button>
         </Link>
 
-        <Link href='/carta-catala' passHref>
+        <Link href='/cartas/carta-catala' passHref>
           <Button
             className='majorMonoDisplayFont'
             sx={{
@@ -92,7 +92,7 @@ const Home = () => {
           </Button>
         </Link>
 
-        <Link href='/carta-ingles' passHref>
+        <Link href='/cartas/carta-ingles' passHref>
           <Button
             className='majorMonoDisplayFont'
             sx={{
