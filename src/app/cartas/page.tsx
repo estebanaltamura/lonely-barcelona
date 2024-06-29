@@ -122,12 +122,14 @@ const Home = () => {
         href='https://www.instagram.com/lonely.bcn'
         target='_blank'
         rel='noopener noreferrer'
+        style={{
+          fontFamily: 'Happy Time Three',
+          fontSize: '22px',
+          marginTop: '20px',
+          color: '#FDF0DE',
+        }}
       >
-        <img
-          src='/instagramIcon4.svg'
-          alt=''
-          style={{ width: '42px', marginTop: '50px' }}
-        />
+        @lonely.bcn
       </a>
     </Box>
   );

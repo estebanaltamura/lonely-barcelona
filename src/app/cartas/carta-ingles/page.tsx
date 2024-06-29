@@ -3,8 +3,15 @@
 import { Box, Divider, Typography } from '@mui/material';
 import React from 'react';
 import carta from '../../../cartaIngles.json';
+import { useRouter } from 'next/navigation';
 
 const CartaCatala: React.FC = () => {
+  const router = useRouter();
+
+  const backToHomeButtonHandler = () => {
+    router.push('/cartas');
+  };
+
   return (
     <Box
       className='newsReaderFont'
@@ -27,6 +34,49 @@ const CartaCatala: React.FC = () => {
           top: '-5px',
         }}
       >
+        {/*Back button*/}
+        <Box
+          onClick={backToHomeButtonHandler}
+          sx={{
+            display: 'flex',
+            position: 'absolute',
+            width: '40px',
+            height: '40px',
+            justifyContent: 'center',
+            alignItems: 'center',
+            top: '55px',
+            left: '0px',
+            borderRadius: '100px',
+            border: '1px solid #8C8C8C',
+            cursor: 'pointer',
+          }}
+        >
+          <svg
+            width='17'
+            height='17'
+            color='white'
+            viewBox='0 0 24 24'
+            fill='none'
+            stroke='currentColor'
+            strokeWidth='2'
+            strokeLinecap='round'
+            strokeLinejoin='round'
+          >
+            <path d='m12 19-7-7 7-7'></path>
+            <path d='M19 12H5'></path>
+          </svg>
+          <Typography
+            className='majorMonoDisplayFont'
+            sx={{
+              display: 'flex',
+              position: 'absolute',
+              left: '50px',
+              fontSize: '16px',
+            }}
+          >
+            back
+          </Typography>
+        </Box>
         <img src='/logo.png' alt='' style={{ width: '150px' }} />
       </Box>
       {/* Título de sección */}
