@@ -53,12 +53,12 @@ const Home = () => {
               fontSize: '18px',
               fontWeight: 600,
               '&:hover': {
-                backgroundColor: '#1C1C1C',
-                color: '#FDF0DE',
+                backgroundColor: '#FDF0DE',
+                color: '#1C1C1C',
               },
               '&:active': {
-                backgroundColor: '#1C1C1C',
-                color: '#FDF0DE',
+                backgroundColor: '#FDF0DE',
+                color: '#1C1C1C',
               },
             }}
           >
@@ -79,12 +79,12 @@ const Home = () => {
               fontSize: '18px',
               fontWeight: 600,
               '&:hover': {
-                backgroundColor: '#1C1C1C',
-                color: '#FDF0DE',
+                backgroundColor: '#FDF0DE',
+                color: '#1C1C1C',
               },
               '&:active': {
-                backgroundColor: '#1C1C1C',
-                color: '#FDF0DE',
+                backgroundColor: '#FDF0DE',
+                color: '#1C1C1C',
               },
             }}
           >
@@ -105,12 +105,12 @@ const Home = () => {
               fontSize: '18px',
               fontWeight: 600,
               '&:hover': {
-                backgroundColor: '#1C1C1C',
-                color: '#FDF0DE',
+                backgroundColor: '#FDF0DE',
+                color: '#1C1C1C',
               },
               '&:active': {
-                backgroundColor: '#1C1C1C',
-                color: '#FDF0DE',
+                backgroundColor: '#FDF0DE',
+                color: '#1C1C1C',
               },
             }}
           >
