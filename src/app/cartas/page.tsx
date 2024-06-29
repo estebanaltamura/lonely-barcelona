@@ -40,7 +40,7 @@ const Home = () => {
           marginTop: '45px',
         }}
       >
-        <Link href='/cartas/carta' passHref>
+        <Link href='/cartas/carta-espanol' passHref>
           <Button
             className='majorMonoDisplayFont'
             sx={{
