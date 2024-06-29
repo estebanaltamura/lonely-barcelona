@@ -2,9 +2,9 @@
 
 import { Box, Divider, Typography } from '@mui/material';
 import React from 'react';
-import carta from '../../cartaCatala.json';
+import carta from '../../../cartaEspanol.json';
 
-const CartaCatala: React.FC = () => {
+const Carta: React.FC = () => {
   return (
     <Box
       className='newsReaderFont'
@@ -291,4 +291,4 @@ const CartaCatala: React.FC = () => {
   );
 };
 
-export default CartaCatala;
+export default Carta;
