@@ -24,7 +24,7 @@ const Home = () => {
         sx={{
           color: '#FDF0DE',
           fontSize: isDesktop ? '36px' : '24px',
-          fontFamily: 'Happy Time Three',
+          fontFamily: 'Happy Time Three !important',
           textAlign: 'center',
           marginTop: '10px',
         }}
