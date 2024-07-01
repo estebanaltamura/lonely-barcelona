@@ -73,39 +73,40 @@
       "title": "la figa",
       "description": "negre, lleuger i fresc, de garnatxa i carinyena de pau i rabós.",
       "price": {
-        "copa": "5",
-        "botella": "25"
+        "copa": "5.50",
+        "botella": "30"
       }
     },
     {
       "title": "panorama",
       "description": "blanc de limoux, lleuger, aromàtic i molt agradable al paladar, omple sense embafar.",
       "price": {
-        "copa": "5",
-        "botella": "25"
+        "copa": "5.5",
+        "botella": "30"
       }
     },
     {
       "title": "mandarines",
       "description": "orange de garnatxa blanca derrapada.",
       "price": {
-        "botella": "25"
+        "copa": "-",
+        "botella": "30"
       }
     },
     {
       "title": "blublub",
       "description": "espumós d'una sola fermentació, xarel.lo 100% de la família ros marina en font-rubí, penedés.",
       "price": {
-        "copa": "5",
-        "botella": "25"
+        "copa": "5.5",
+        "botella": "30"
       }
     },
     {
       "title": "virra",
       "description": "fet amb les pells del raïm i refermentat amb most.",
       "price": {
-        "copa": "5",
-        "botella": "25"
+        "copa": "5.50",
+        "botella": "30"
       }
     }
   ],

@@ -73,40 +73,40 @@
       "title": "la figa",
       "description": "tinto, ligero y fresco, de garnacha y cariñena de pau y rabós.",
       "price": {
-        "copa": "5",
-        "botella": "25"
+        "copa": "5.5",
+        "botella": "30"
       }
     },
     {
       "title": "panorama",
       "description": "blanco de la zona de limoux, ligero, aromático y muy agradable en boca, llena sin empalagar.",
       "price": {
-        "copa": "5",
-        "botella": "25"
+        "copa": "5.5",
+        "botella": "30"
       }
     },
     {
       "title": "mandarines",
       "description": "orange de garnacha blanca derrapada.",
       "price": {
-        "copa": "5",
-        "botella": "25"
+        "copa": "-",
+        "botella": "30"
       }
     },
     {
       "title": "blublub",
       "description": "espumoso de una sola fermentación, xarel.lo 100% de la familia ros marina en font-rubi, penedés.",
       "price": {
-        "copa": "5",
-        "botella": "25"
+        "copa": "5.5",
+        "botella": "30"
       }
     },
     {
       "title": "virra",
       "description": "hecho con las pieles de la uva y refermentado con mosto.",
       "price": {
-        "copa": "5",
-        "botella": "25"
+        "copa": "5.5",
+        "botella": "30"
       }
     }
   ],

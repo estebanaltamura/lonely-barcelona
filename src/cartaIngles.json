@@ -73,40 +73,40 @@
       "title": "la figa",
       "description": "red, light and fresh, from garnacha and cariñena of pau and rabós.",
       "price": {
-        "copa": "5",
-        "botella": "25"
+        "copa": "5.5",
+        "botella": "30"
       }
     },
     {
       "title": "panorama",
       "description": "white from the limoux area, light, aromatic and very pleasant in the mouth, fills without cloying.",
       "price": {
-        "copa": "5",
-        "botella": "25"
+        "copa": "5.5",
+        "botella": "30"
       }
     },
     {
       "title": "mandarines",
       "description": "orange wine from destemmed garnacha blanca.",
       "price": {
-        "copa": "5",
-        "botella": "25"
+        "copa": "-",
+        "botella": "30"
       }
     },
     {
       "title": "blublub",
       "description": "sparkling wine of a single fermentation, xarel.lo 100% from the ros marina family in font-rubi, penedés.",
       "price": {
-        "copa": "5",
-        "botella": "25"
+        "copa": "5.5",
+        "botella": "30"
       }
     },
     {
       "title": "virra",
       "description": "made with the grape skins and refermented with must.",
       "price": {
-        "copa": "5",
-        "botella": "25"
+        "copa": "5.5",
+        "botella": "30"
       }
     }
   ],
