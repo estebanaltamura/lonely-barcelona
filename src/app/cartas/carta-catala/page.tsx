@@ -90,7 +90,7 @@ const CartaCatala: React.FC = () => {
           marginTop: '45px',
         }}
       >
-        Cocktails de autor
+        Còctels d´autor
       </Box>
 
       {/* Items container*/}
@@ -184,7 +184,7 @@ const CartaCatala: React.FC = () => {
           marginTop: '45px',
         }}
       >
-        Vinos naturales
+        Vins naturals
       </Box>
 
       {/* Items container*/}
@@ -279,7 +279,7 @@ const CartaCatala: React.FC = () => {
           marginTop: '45px',
         }}
       >
-        Cervezas
+        Cerveses
       </Box>
 
       {/* Items container*/}
