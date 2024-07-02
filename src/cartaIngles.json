@@ -32,13 +32,13 @@
     },
     {
       "title": "astoria",
-      "description": "dewar's white label scotch whisky, muscat, white port, rose petals & apricot, angostura.",
+      "description": "dewar's white label scotch whisky, moscatel, white port, rose petals & apricot, angostura.",
       "flavors": "for manhattan lovers with a little twist.",
       "price": 12
     },
     {
       "title": "duquesa isabel",
-      "description": "sherry blend (manzanilla de sanlucar & amontillado), jasmine tea, martini bianco vermouth, house tonic.",
+      "description": "sherry blend (manzanilla de sanlucar & amontillado), jasmine tea, martini white vermouth, house tonic.",
       "flavors": "fresh & mineral, with saline touches & pleasantly bitter.",
       "price": 12
     },
@@ -50,7 +50,7 @@
     },
     {
       "title": "southside bumb",
-      "description": "gin bombay dry, peppermint, cucumber, spiced syrup from jerez palomino fino, orange sorbet, water cordial & soda.",
+      "description": "gin bombay dry, peppermint, cucumber, spiced syrup from jerez palomino fino, orange sherbet, water cordial & soda.",
       "flavors": "better than a mojito, fresher, greener, cooler.",
       "price": 12
     },
@@ -63,7 +63,7 @@
     {
       "title": "piston",
       "description": "coffee-infused pisco, marsala, tepache & tonic.",
-      "flavors": "unusual flavor combination with coffee notes.",
+      "flavors": "unusual mix of flavors with coffee notes.",
       "price": 10
     }
   ],
@@ -71,7 +71,7 @@
   "vinosNaturales": [
     {
       "title": "la figa",
-      "description": "red, light and fresh, from garnacha and cariñena of pau and rabós.",
+      "description": "red, light and fresh, from garnacha & corognan grape of pau and rabós.",
       "price": {
         "copa": "5.5",
         "botella": "30"
@@ -79,7 +79,7 @@
     },
     {
       "title": "panorama",
-      "description": "white from the limoux area, light, aromatic and very pleasant in the mouth, fills without cloying.",
+      "description": "white from the limoux area, light, aromatic and very plesant mouthfill, fills without cloying.",
       "price": {
         "copa": "5.5",
         "botella": "30"
