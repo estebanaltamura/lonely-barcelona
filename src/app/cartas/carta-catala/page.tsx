@@ -82,15 +82,31 @@ const CartaCatala: React.FC = () => {
       {/* Título de sección */}
       <Box
         sx={{
-          width: '240px',
-          fontSize: '55px',
-          lineHeight: '29px',
-          fontFamily: 'Happy Time Three',
-          color: '#FCF0DD',
+          width: '200px',
+
           marginTop: '45px',
         }}
       >
-        Còctels d´autor
+        <Typography
+          sx={{
+            fontSize: '55px',
+            lineHeight: '29px',
+            fontFamily: 'Happy Time Three !important',
+            color: '#FCF0DD',
+          }}
+        >
+          Còctels
+        </Typography>
+        <Typography
+          sx={{
+            fontSize: '55px',
+            lineHeight: '29px',
+            fontFamily: 'Happy Time Three !important',
+            color: '#FCF0DD',
+          }}
+        >
+          d&apos;autor
+        </Typography>
       </Box>
 
       {/* Items container*/}
