@@ -88,7 +88,7 @@ const Home = () => {
               },
             }}
           >
-            carta catala
+            carta català
           </Button>
         </Link>
 
@@ -114,7 +114,7 @@ const Home = () => {
               },
             }}
           >
-            carta ingles
+            menu
           </Button>
         </Link>
       </Box>
