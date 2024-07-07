@@ -20,7 +20,7 @@
     },
     {
       "title": "torrija",
-      "description": "limoncello, camamilla de sanlúcar, fulla d'olivera, eristoff vodka, llimona, oli d'oliva & clara d'ou.",
+      "description": "limoncello, manzanilla de sanlúcar, fulla d'olivera, eristoff vodka, llimona, oli d'oliva & clara d'ou.",
       "flavors": "cremós, notes cítriques i amargues.",
       "price": 12
     },
@@ -38,13 +38,13 @@
     },
     {
       "title": "duquesa isabel",
-      "description": "sherry blend (camamilla de sanlúcar i amontillat), te de gessamí, vermut bianco martini, tònica clàssica de la casa.",
+      "description": "sherry blend (manzanilla de sanlúcar i amontillat), te de gessamí, vermut bianco martini, tònica clàssica de la casa.",
       "flavors": "fresc & mineral, amb tocs salins & amablement amarg.",
       "price": 12
     },
     {
       "title": "philly vic punch",
-      "description": "rom vell santa teresa, préssec caramelitzat, porto vermell, licor de préssec, te de djarleig & llimona.",
+      "description": "rom envellit santa teresa, préssec caramelitzat, porto vermell, licor de préssec, te de djarleig & llimona.",
       "flavors": "complex, dolç, delicadament aromatitzat.",
       "price": 12
     },
@@ -64,7 +64,7 @@
       "title": "piston",
       "description": "pisco aromatitzat de cafè, marsala, tepache & tònica.",
       "flavors": "combinació inusual de sabors amb notes de cafè.",
-      "price": 10
+      "price": 13
     }
   ],
 
