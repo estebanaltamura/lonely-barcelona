@@ -65,6 +65,24 @@
       "description": "coffee-infused pisco, marsala, tepache & tonic.",
       "flavors": "unusual mix of flavors with coffee notes.",
       "price": 13
+    },
+    {
+      "title": "Tommy's mescalita",
+      "description": "mezcal unión, cazadores white tequila, agave & lime",
+      "flavors": ".",
+      "price": 12
+    },
+    {
+      "title": "gin fino basil smash",
+      "description": "bombay dry gin, fino sherry wine, basil & lemon",
+      "flavors": ".",
+      "price": 11
+    },
+    {
+      "title": "penicillin",
+      "description": "dewar's white label whiskey, lapsang tea, ginger & lemon",
+      "flavors": ".",
+      "price": 11
     }
   ],
 
