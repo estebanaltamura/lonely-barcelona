@@ -69,19 +69,19 @@
     {
       "title": "Tommy's mescalita",
       "description": "mezcal unión, tequila blanco cazadores, agave & lima",
-      "flavors": ".",
+      "flavors": "",
       "price": 12
     },
     {
       "title": "gin fino basil smash",
       "description": "gin dry bombay, vino de jerez fino, albahaca & limón",
-      "flavors": ".",
+      "flavors": "",
       "price": 11
     },
     {
       "title": "penicillin",
       "description": "whisky dewar's white label, te de lapsang, jengibre & limón",
-      "flavors": ".",
+      "flavors": "",
       "price": 11
     }
   ],
