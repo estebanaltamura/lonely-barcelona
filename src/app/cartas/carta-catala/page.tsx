@@ -391,7 +391,7 @@ const CartaCatala: React.FC = () => {
               <Box
                 sx={{
                   display: 'flex',
-                  width: '160px',
+                  width: '220px',
                   lineHeight: '25px',
                   flexWrap: 'wrap',
                   fontFamily: 'Happy Time Three',
