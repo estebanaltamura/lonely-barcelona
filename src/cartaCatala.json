@@ -107,8 +107,8 @@
       "title": "mandarines",
       "description": "orange de garnatxa blanca derrapada.",
       "price": {
-        "copa": "-",
-        "botella": "30"
+        "copa": "7.5",
+        "botella": "40"
       }
     },
     {
@@ -134,8 +134,22 @@
       "price": "4.30"
     },
     {
+      "title": "almogàver vnancy ipa",
+      "price": "4.60"
+    },
+    {
+      "title": "almogàver txiringuito sour",
+      "price": "4.60"
+    },
+    {
       "title": "estrella galicia",
       "price": "3"
+    }
+  ],
+  "comida": [
+    {
+      "title": "pataton bloody mary",
+      "price": "2.5"
     }
   ]
 }
