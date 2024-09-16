@@ -64,7 +64,7 @@
       "title": "piston",
       "description": "pisco aromatizado de cafe, marsala, tepache & tonica.",
       "flavors": "combinado inusual de sabores con notas de cafe.",
-      "price": 10
+      "price": 13
     },
     {
       "title": "Tommy's mescalita",
@@ -146,10 +146,10 @@
       "price": "3"
     }
   ],
-"comida": [
-  {
-    "title": "pataton bloody mary",
-    "price": "2.5"
-  }
-]
+  "comida": [
+    {
+      "title": "pataton bloody mary",
+      "price": "2.5"
+    }
+  ]
 }
