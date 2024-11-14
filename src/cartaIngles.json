@@ -1,12 +1,6 @@
 {
   "cocktails": [
     {
-      "title": "50/50 gibson",
-      "description": "vodka grey goose, cherry tomato & vermouth",
-      "flavors": "dry noilly prat. dry, with a Mediterranean touch.",
-      "price": 11
-    },
-    {
       "title": "paloma spritz",
       "description": "tequila blanco cazadores, elderflower liqueur st. germain, lime, smoked grapefruit, sour beer & soda.",
       "flavors": "floral, citric & pleasantly smoky. bubbly and cheerful.",

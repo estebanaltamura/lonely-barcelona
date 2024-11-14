@@ -1,12 +1,6 @@
 {
   "cocktails": [
     {
-      "title": "50/50 gibson",
-      "description": "vodka grey goose, tomate cherry & vermut",
-      "flavors": "seco, con un toque mediterraneo.",
-      "price": 11
-    },
-    {
       "title": "paloma spritz",
       "description": "tequila blanco cazadores, licor de flor de sauco st. germain, lima, pomelo ahumado, sour beer & soda.",
       "flavors": "floral, citrico & agradablemente ahumado. burbujas simpaticas.",
