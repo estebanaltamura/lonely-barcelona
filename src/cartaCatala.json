@@ -4,77 +4,87 @@
       "title": "paloma spritz",
       "description": "tequila blanco cazadores, licor de flor de saüc st. germain, llima, aranja fumat, sour beer & soda.",
       "flavors": "floral, cítric & agradablement fumat. bombolles simpàtiques.",
-      "price": 11
+      "price": 11,
+      "al·lèrgens": "no"
     },
     {
       "title": "hicky coco punch",
       "description": "shrub de remolatxa & poma verda, sorbet de llima, rom vell santa teresa, vermut ambrato martini, pacharan & llimona. tot clarificat amb llet de coco.",
       "flavors": "vegà, dolç & el preferit de la jefa,  i punt.",
-      "price": 13
+      "price": 13,
+      "al·lèrgens": "llet"
     },
     {
       "title": "torrija",
       "description": "limoncello, manzanilla de sanlúcar, fulla d'olivera, eristoff vodka, llimona, oli d'oliva & clara d'ou.",
       "flavors": "cremós, notes cítriques i amargues.",
-      "price": 12
+      "price": 12,
+      "al·lèrgens": "ou"
     },
     {
       "title": "carrotcake garibaldi",
       "description": "campari, suc de pastanaga, escuma de carrot cake & oli essencial de llimona.",
       "flavors": "no hi ha gaire cosa mès a dir, cal tastar-ho.",
-      "price": 12
+      "price": 12,
+      "al·lèrgens": "llet, ametlla"
     },
     {
       "title": "astoria",
       "description": "whisky escocès dewar´s white label, moscatell, porto blanc, pètals de roses & albercoc, angostura.",
       "flavors": "pels amants del manhattan amb un petit twist.",
-      "price": 12
+      "price": 12,
+      "al·lèrgens": "no"
     },
     {
       "title": "duquesa isabel",
       "description": "sherry blend (manzanilla de sanlúcar i amontillat), te de gessamí, vermut bianco martini, tònica clàssica de la casa.",
       "flavors": "fresc & mineral, amb tocs salins & amablement amarg.",
-      "price": 12
+      "price": 12,
+      "al·lèrgens": "no"
     },
     {
       "title": "philly vic punch",
       "description": "rom envellit santa teresa, préssec caramelitzat, porto vermell, licor de préssec, te de djarleig & llimona.",
       "flavors": "complex, dolç, delicadament aromatitzat.",
-      "price": 12
+      "price": 12,
+      "al·lèrgens": "no"
     },
     {
       "title": "southside bumb",
       "description": "gin bombay dry, menta peperina, cogombre, xarop especiat de palomino fi de xerès, sorbet de taronja, cordial d'aigua & soda.",
       "flavors": "millor que un mojito, més fresc, més verd, més xulo.",
-      "price": 12
+      "price": 12,
+      "al·lèrgens": "no"
     },
     {
       "title": "la última palabra",
       "description": "mezcal union, chartreuse verd, maraschino, llima, escuma de pinya & pebre vermell.",
       "flavors": "herbal, fumat & tropical.",
-      "price": 12
+      "price": 12,
+      "al·lèrgens": "no"
     },
-    
     {
       "title": "Tommy's mescalita",
       "description": "mezcal unión, tequila blanc cazadores, atzavara & llima",
       "flavors": "",
-      "price": 12
+      "price": 12,
+      "al·lèrgens": "no"
     },
     {
       "title": "gin fino basil smash",
       "description": "bombay dry gin, vi de xerès fino, alfàbrega & llimona",
       "flavors": "",
-      "price": 11
+      "price": 11,
+      "al·lèrgens": "no"
     },
     {
       "title": "penicillin",
       "description": "dewar's white label whiskey, te de lapsang, gingebre & llimona",
       "flavors": "",
-      "price": 11
+      "price": 11,
+      "al·lèrgens": "no"
     }
   ],
-
   "vinosNaturales": [
     {
       "title": "la figa",
@@ -82,7 +92,8 @@
       "price": {
         "copa": "5.50",
         "botella": "30"
-      }
+      },
+      "al·lèrgens": "sulfits"
     },
     {
       "title": "panorama",
@@ -90,7 +101,8 @@
       "price": {
         "copa": "5.5",
         "botella": "30"
-      }
+      },
+      "al·lèrgens": "sulfits"
     },
     {
       "title": "mandarines",
@@ -98,7 +110,8 @@
       "price": {
         "copa": "7.5",
         "botella": "40"
-      }
+      },
+      "al·lèrgens": "sulfits"
     },
     {
       "title": "blublub",
@@ -106,7 +119,8 @@
       "price": {
         "copa": "5.5",
         "botella": "30"
-      }
+      },
+      "al·lèrgens": "sulfits"
     },
     {
       "title": "virra",
@@ -114,39 +128,48 @@
       "price": {
         "copa": "5.50",
         "botella": "30"
-      }
+      },
+      "al·lèrgens": "sulfits"
     }
   ],
   "cervezas": [
     {
       "title": "almogàver vicious ipa",
-      "price": "4.30"
+      "price": "4.30",
+      "al·lèrgens": "no"
     },
     {
       "title": "almogàver vnancy ipa",
-      "price": "4.60"
+      "price": "4.60",
+      "al·lèrgens": "gluten"
     },
     {
       "title": "almogàver txiringuito sour",
-      "price": "4.60"
+      "price": "4.60",
+      "al·lèrgens": "gluten"
     },
     {
       "title": "estrella galicia",
-      "price": "3"
+      "price": "3",
+      "al·lèrgens": "gluten"
     }
   ],
   "comida": [
     {
       "title": "pataton bloody mary",
-      "price": "2.5"
+      "price": "2.5",
+      "al·lèrgens": "api"
     },
     {
       "title": "olives tutti frutti",
-      "price": "3.5"
+      "price": "3.5",
+      "al·lèrgens": "no"
     },
     {
       "title": "gildas d`anxova",
-      "price": "5"
+      "price": "5",
+      "al·lèrgens": "peix"
     }
   ]
 }
+

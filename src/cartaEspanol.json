@@ -4,77 +4,87 @@
       "title": "paloma spritz",
       "description": "tequila blanco cazadores, licor de flor de sauco st. germain, lima, pomelo ahumado, sour beer & soda.",
       "flavors": "floral, citrico & agradablemente ahumado. burbujas simpaticas.",
-      "price": 11
+      "price": 11,
+      "alergenos": "no"
     },
     {
       "title": "hicky coco punch",
       "description": "shrub de remolacha & manzana verde, sorbete de limon, ron añejo santa teresa, vermut ambrato martini, pacharan & limon. todo clarificado con leche de coco.",
       "flavors": "vegano, dulce & el preferido de la jefa, punto.",
-      "price": 13
+      "price": 13,
+      "alergenos": "leche"
     },
     {
       "title": "torrija",
       "description": "limoncello, manzanilla de sanlúcar, hoja de olivo, eristoff vodka, limon, aceite de oliva & clara de huevo.",
       "flavors": "cremoso, notas citricas y amargas.",
-      "price": 12
+      "price": 12,
+      "alergenos": "huevo"
     },
     {
       "title": "carrotcake garibaldi",
       "description": "campari, jugo de zanahoria, espuma de carrot cake & aceite esencial de limon.",
       "flavors": "no hay mucho mas para decir, hay que probarlo.",
-      "price": 12
+      "price": 12,
+      "alergenos": "leche, almendra"
     },
     {
       "title": "astoria",
       "description": "whisky escoces dewar´s white label, moscatel, oporto blanco, petalos de rosas & albaricoque, angostura.",
       "flavors": "para los amantes del manhattan con un pequeño twist.",
-      "price": 12
+      "price": 12,
+      "alergenos": "no"
     },
     {
       "title": "duquesa isabel",
       "description": "sherry blend (manzanilla de sanlúcar y amontillado), te de jazmin, vermut bianco martini, tonica clasica de la casa.",
       "flavors": "fresco & mineral, con toques salinos & amablemente amargo.",
-      "price": 12
+      "price": 12,
+      "alergenos": "no"
     },
     {
       "title": "philly vic punch",
       "description": "ron añejo santa teresa, melocoton caramelizado, oporto rojo, licor de melocoton, te de djarleig & limon.",
       "flavors": "complejo, dulce, delicadamente aromatizado.",
-      "price": 12
+      "price": 12,
+      "alergenos": "no"
     },
     {
       "title": "southside bumb",
       "description": "gin bombay dry, menta peperina, pepino, jarabe especiado de palomino fino de jerez, sorbete de naranja, cordial de agua & soda.",
       "flavors": "mejor que un mojito, más fresco, más verde, más chulo.",
-      "price": 12
+      "price": 12,
+      "alergenos": "no"
     },
     {
       "title": "la ultima palabra",
       "description": "mezcal union, chartreuse verde, maraschino, lima, espuma de piña & pimienta roja.",
       "flavors": "herbal, ahumado & tropical.",
-      "price": 12
+      "price": 12,
+      "alergenos": "no"
     },
-    
     {
       "title": "Tommy's mescalita",
       "description": "mezcal unión, tequila blanco cazadores, agave & lima",
       "flavors": "",
-      "price": 12
+      "price": 12,
+      "alergenos": "no"
     },
     {
       "title": "gin fino basil smash",
       "description": "gin dry bombay, vino de jerez fino, albahaca & limón",
       "flavors": "",
-      "price": 11
+      "price": 11,
+      "alergenos": "no"
     },
     {
       "title": "penicillin",
       "description": "whisky dewar's white label, te de lapsang, jengibre & limón",
       "flavors": "",
-      "price": 11
+      "price": 11,
+      "alergenos": "no"
     }
   ],
-
   "vinosNaturales": [
     {
       "title": "la figa",
@@ -82,7 +92,8 @@
       "price": {
         "copa": "5.5",
         "botella": "30"
-      }
+      },
+      "alergenos": "sulfitos"
     },
     {
       "title": "panorama",
@@ -90,7 +101,8 @@
       "price": {
         "copa": "5.5",
         "botella": "30"
-      }
+      },
+      "alergenos": "sulfitos"
     },
     {
       "title": "mandarines",
@@ -98,7 +110,8 @@
       "price": {
         "copa": "7.5",
         "botella": "40"
-      }
+      },
+      "alergenos": "sulfitos"
     },
     {
       "title": "blublub",
@@ -106,7 +119,8 @@
       "price": {
         "copa": "5.5",
         "botella": "30"
-      }
+      },
+      "alergenos": "sulfitos"
     },
     {
       "title": "virra",
@@ -114,39 +128,48 @@
       "price": {
         "copa": "5.5",
         "botella": "30"
-      }
+      },
+      "alergenos": "sulfitos"
     }
   ],
   "cervezas": [
     {
       "title": "almogaver vicius ipa",
-      "price": "4.30"
+      "price": "4.30",
+      "alergenos": "no"
     },
     {
       "title": "almogaver nancy ipa",
-      "price": "4.60"
+      "price": "4.60",
+      "alergenos": "gluten"
     },
     {
       "title": "almogaver txiringuito sour",
-      "price": "4.60"
+      "price": "4.60",
+      "alergenos": "gluten"
     },
     {
       "title": "estrella galicia",
-      "price": "3"
+      "price": "3",
+      "alergenos": "gluten"
     }
   ],
   "comida": [
     {
       "title": "pataton bloody mary",
-      "price": "2.5"
+      "price": "2.5",
+      "alergenos": "apio"
     },
     {
       "title": "olivas tutti frutti",
-      "price": "3.5"
+      "price": "3.5",
+      "alergenos": "no"
     },
     {
       "title": "gildas de anchoa",
-      "price": "5"
+      "price": "5",
+      "alergenos": "pescado"
     }
   ]
 }
+
