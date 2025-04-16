@@ -151,10 +151,16 @@ const Carta: React.FC = () => {
               >
                 {item.description}
               </Typography>
+              {item.flavors && (
+                <Typography
+                  sx={{ fontSize: '12px', marginTop: '11px', lineHeight: '13px' }}
+                  className='majorMonoDisplayFont'
+                >{`·${item.flavors}`}</Typography>
+              )}
               <Typography
                 sx={{ fontSize: '12px', marginTop: '11px', lineHeight: '13px' }}
                 className='majorMonoDisplayFont'
-              >{`·${item.flavors}`}</Typography>
+              >{`·alergenos: ${item.alergenos}`}</Typography>
             </Box>
           </Box>
         ))}
@@ -250,6 +256,10 @@ const Carta: React.FC = () => {
               >
                 {item.description}
               </Typography>
+              <Typography
+                sx={{ fontSize: '12px', marginTop: '11px', lineHeight: '13px' }}
+                className='majorMonoDisplayFont'
+              >{`·alergenos: ${item.alergenos}`}</Typography>
             </Box>
           </Box>
         ))}
@@ -333,6 +343,11 @@ const Carta: React.FC = () => {
                   },
                 }}
               ></Box>
+              
+              <Typography
+                sx={{ fontSize: '12px', marginTop: '11px', lineHeight: '13px' }}
+                className='majorMonoDisplayFont'
+              >{`·alergenos: ${item.alergenos}`}</Typography>
             </Box>
           </Box>
         ))}
@@ -416,6 +431,10 @@ const Carta: React.FC = () => {
                   },
                 }}
               ></Box>
+              <Typography
+                sx={{ fontSize: '12px', marginTop: '11px', lineHeight: '13px' }}
+                className='majorMonoDisplayFont'
+              >{`·alergenos: ${item.alergenos}`}</Typography>
             </Box>
           </Box>
         ))}

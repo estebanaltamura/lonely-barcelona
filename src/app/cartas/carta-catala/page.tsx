@@ -160,17 +160,28 @@ const CartaCatala: React.FC = () => {
                   },
                 }}
               ></Box>
-
+              
               <Typography
                 sx={{ fontSize: '12px', lineHeight: '13px', marginTop: '19px' }}
                 className='majorMonoDisplayFont'
               >
                 {item.description}
               </Typography>
-              <Typography
-                sx={{ fontSize: '12px', marginTop: '11px', lineHeight: '13px' }}
-                className='majorMonoDisplayFont'
-              >{`·${item.flavors}`}</Typography>
+              {
+                item.flavors &&
+                (
+                  <Typography
+                    sx={{ fontSize: '12px', marginTop: '11px', lineHeight: '13px' }}
+                    className='majorMonoDisplayFont'
+                  >{`·${item.flavors}`}</Typography>
+                )
+              }
+               <Typography
+                  sx={{ fontSize: '12px', marginTop: '11px', lineHeight: '13px' }}
+                  className='majorMonoDisplayFont'
+                >{`·allergens: ${item['al·lèrgens']}`}</Typography>
+              
+              
             </Box>
           </Box>
         ))}
@@ -266,6 +277,10 @@ const CartaCatala: React.FC = () => {
               >
                 {item.description}
               </Typography>
+               <Typography
+                  sx={{ fontSize: '12px', marginTop: '11px', lineHeight: '13px' }}
+                  className='majorMonoDisplayFont'
+                >{`·allergens: ${item['al·lèrgens']}`}</Typography>
             </Box>
           </Box>
         ))}
@@ -349,6 +364,10 @@ const CartaCatala: React.FC = () => {
                   },
                 }}
               ></Box>
+              <Typography
+                  sx={{ fontSize: '12px', marginTop: '11px', lineHeight: '13px' }}
+                  className='majorMonoDisplayFont'
+                >{`·allergens: ${item['al·lèrgens']}`}</Typography>
             </Box>
           </Box>
         ))}
@@ -433,6 +452,10 @@ const CartaCatala: React.FC = () => {
                   },
                 }}
               ></Box>
+              <Typography
+                  sx={{ fontSize: '12px', marginTop: '11px', lineHeight: '13px' }}
+                  className='majorMonoDisplayFont'
+                >{`·allergens: ${item['al·lèrgens']}`}</Typography>
             </Box>
           </Box>
         ))}
