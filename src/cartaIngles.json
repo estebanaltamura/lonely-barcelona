@@ -12,21 +12,21 @@
       "description": "beet & green apple shrub, lemon sorbet, aged rum santa teresa, martini ambrato vermouth, patxaran & lemon. all clarified with coconut milk.",
       "flavors": "vegan, sweet & the boss's favorite, period.",
       "price": 13,
-      "allergens": "milk"
+      "allergens": "contains milk"
     },
     {
       "title": "torrija",
       "description": "limoncello, manzanilla de sanlúcar, olive leaf, eristoff vodka, lemon, olive oil & egg white.",
       "flavors": "creamy, with citric and bitter notes.",
       "price": 12,
-      "allergens": "egg"
+      "allergens": "contains egg"
     },
     {
       "title": "carrotcake garibaldi",
       "description": "campari, carrot juice, carrot cake foam & lemon essential oil.",
       "flavors": "not much else to say, you have to try it.",
       "price": 12,
-      "allergens": "milk, almond"
+      "allergens": "contains milk, almond"
     },
     {
       "title": "astoria",
@@ -93,7 +93,7 @@
         "copa": "5.5",
         "botella": "30"
       },
-      "allergens": "sulfites"
+      "allergens": "contains sulfites"
     },
     {
       "title": "panorama",
@@ -102,7 +102,7 @@
         "copa": "5.5",
         "botella": "30"
       },
-      "allergens": "sulfites"
+      "allergens": "contains sulfites"
     },
     {
       "title": "mandarines",
@@ -111,7 +111,7 @@
         "copa": "7.5",
         "botella": "40"
       },
-      "allergens": "sulfites"
+      "allergens": "contains sulfites"
     },
     {
       "title": "blublub",
@@ -120,7 +120,7 @@
         "copa": "5.5",
         "botella": "30"
       },
-      "allergens": "sulfites"
+      "allergens": "contains sulfites"
     },
     {
       "title": "virra",
@@ -129,7 +129,7 @@
         "copa": "5.5",
         "botella": "30"
       },
-      "allergens": "sulfites"
+      "allergens": "contains sulfites"
     }
   ],
   "cervezas": [
@@ -141,24 +141,24 @@
     {
       "title": "almogaver nancy ipa",
       "price": "4.60",
-      "allergens": "gluten"
+      "allergens": "contains gluten"
     },
     {
       "title": "almogaver txiringuito sour",
       "price": "4.60",
-      "allergens": "gluten"
+      "allergens": "contains gluten"
     },
     {
       "title": "estrella galicia",
       "price": "3",
-      "allergens": "gluten"
+      "allergens": "contains gluten"
     }
   ],
   "comida": [
     {
       "title": "patato chip bloody mary",
       "price": "2.5",
-      "allergens": "celery"
+      "allergens": "contains celery"
     },
     {
       "title": "olives tutti frutti",
@@ -168,7 +168,7 @@
     {
       "title": "anchovy gilda",
       "price": "5",
-      "allergens": "fish"
+      "allergens": "contains fish"
     }
   ]
 }
