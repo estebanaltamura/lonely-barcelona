@@ -6,28 +6,14 @@
       "flavors": "floral, citric & pleasantly smoky. bubbly and cheerful.",
       "price": 11,
       "allergens": "no"
-    },
-    {
-      "title": "hicky coco punch",
-      "description": "beet & green apple shrub, lemon sorbet, aged rum santa teresa, martini ambrato vermouth, patxaran & lemon. all clarified with coconut milk.",
-      "flavors": "vegan, sweet & the boss's favorite, period.",
-      "price": 13,
-      "allergens": "contains milk"
-    },
+    },    
     {
       "title": "torrija",
       "description": "limoncello, manzanilla de sanlúcar, olive leaf, eristoff vodka, lemon, olive oil & egg white.",
       "flavors": "creamy, with citric and bitter notes.",
       "price": 12,
       "allergens": "contains egg"
-    },
-    {
-      "title": "carrotcake garibaldi",
-      "description": "campari, carrot juice, carrot cake foam & lemon essential oil.",
-      "flavors": "not much else to say, you have to try it.",
-      "price": 12,
-      "allergens": "contains milk, almond"
-    },
+    },   
     {
       "title": "astoria",
       "description": "dewar's white label scotch whisky, moscatel, white port, rose petals & apricot, angostura.",
