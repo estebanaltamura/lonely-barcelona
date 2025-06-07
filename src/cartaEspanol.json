@@ -6,28 +6,14 @@
       "flavors": "floral, citrico & agradablemente ahumado. burbujas simpaticas.",
       "price": 11,
       "alergenos": "no contiene"
-    },
-    {
-      "title": "hicky coco punch",
-      "description": "shrub de remolacha & manzana verde, sorbete de limon, ron añejo santa teresa, vermut ambrato martini, pacharan & limon. todo clarificado con leche de coco.",
-      "flavors": "vegano, dulce & el preferido de la jefa, punto.",
-      "price": 13,
-      "alergenos": "contiene leche"
-    },
+    },    
     {
       "title": "torrija",
       "description": "limoncello, manzanilla de sanlúcar, hoja de olivo, eristoff vodka, limon, aceite de oliva & clara de huevo.",
       "flavors": "cremoso, notas citricas y amargas.",
       "price": 12,
       "alergenos": "contiene huevo"
-    },
-    {
-      "title": "carrotcake garibaldi",
-      "description": "campari, jugo de zanahoria, espuma de carrot cake & aceite esencial de limon.",
-      "flavors": "no hay mucho mas para decir, hay que probarlo.",
-      "price": 12,
-      "alergenos": "contiene leche, almendra"
-    },
+    },    
     {
       "title": "astoria",
       "description": "whisky escoces dewar´s white label, moscatel, oporto blanco, petalos de rosas & albaricoque, angostura.",
