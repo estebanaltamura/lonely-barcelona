@@ -5,70 +5,77 @@
       "description": "tequila blanco cazadores, elderflower liqueur st. germain, lime, smoked grapefruit, sour beer & soda.",
       "flavors": "floral, citric & pleasantly smoky. bubbly and cheerful.",
       "price": 11,
-      "allergens": "no"
+      "allergens": "nodoes not contain"
     },    
     {
-      "title": "torrija",
-      "description": "limoncello, manzanilla de sanlúcar, olive leaf, eristoff vodka, lemon, olive oil & egg white.",
-      "flavors": "creamy, with citric and bitter notes.",
-      "price": 12,
-      "allergens": "contains egg"
+      "title": "antonietta",
+      "description": "Grey Goose vodka, manzanilla coconut sherry wine, lemon, sugar & soda.",
+      "flavors": "refreshing, delicately herbal and citrusy, with a subtle coconut note, exotic and sparkling.",
+      "price": 11,
+      "alergenos": "does not contain"
     },   
     {
-      "title": "astoria",
-      "description": "dewar's white label scotch whisky, moscatel, white port, rose petals & apricot, angostura.",
-      "flavors": "for manhattan lovers with a little twist.",
-      "price": 12,
-      "allergens": "no"
+      "title": "cheesecake white negroni",
+      "description": "Martini Bitter, Martini Ambrato vermouth and Noilly Prat Dry, Bombay Sapphire gin, cheesecake infusion.",
+      "flavors": "aromatic and complex, with elegant bitterness, spiced notes and a creamy, subtle finish reminiscent of dessert.",
+      "price": 11,
+      "alergenos": "does not contain"
     },
     {
-      "title": "duquesa isabel",
-      "description": "sherry blend (manzanilla de sanlúcar & amontillado), jasmine tea, martini white vermouth, house tonic.",
-      "flavors": "fresh & mineral, with saline touches & pleasantly bitter.",
+      "title": "bitter banana split",
+      "description": "Michter's rye whisky, Martini Bitter, banana liqueur and cacao.",
+      "flavors": "intense and spicy, with deep bitterness, ripe banana sweetness and a velvety cacao finish.",
       "price": 12,
-      "allergens": "no"
+      "alergenos": "does not contain"
     },
     {
       "title": "philly vic punch",
       "description": "aged rum santa teresa, caramelized peach, red port, peach liqueur, darjeeling tea & lemon.",
       "flavors": "complex, sweet, delicately flavored.",
       "price": 12,
-      "allergens": "no"
+      "allergens": "does not contain"
     },
     {
-      "title": "southside bumb",
-      "description": "gin bombay dry, peppermint, cucumber, spiced syrup from jerez palomino fino, orange sherbet, water cordial & soda.",
-      "flavors": "better than a mojito, fresher, greener, cooler.",
-      "price": 12,
-      "allergens": "no"
+      "title": "after dark",
+      "description": "Patrón Blanco tequila, Cocchi Rosa aperitif, Amaro Montenegro, grapefruit sherbet, lemon.",
+      "flavors": "bright and citrusy, with balanced bitter and sweet layers, floral touches and a vibrant grapefruit finish.",
+      "price": 13,
+      "alergenos": "does not contain"
     },
     {
       "title": "la última palabra",
       "description": "mezcal union, green chartreuse, maraschino, lime, pineapple foam & red pepper.",
       "flavors": "herbal, smoky & tropical.",
       "price": 12,
-      "allergens": "no"
+      "allergens": "does not contain"
     },
     {
-      "title": "Tommy's mescalita",
-      "description": "mezcal unión, cazadores white tequila, agave & lime",
-      "flavors": "",
-      "price": 12,
-      "allergens": "no"
-    },
-    {
-      "title": "gin fino basil smash",
-      "description": "bombay dry gin, fino sherry wine, basil & lemon",
-      "flavors": "",
+      "title": "lonely calling",
+      "description": "Condesa gin, Lonely sherry blend, lemon, lemon sherbet & Angostura bitters.",
+      "flavors": "citrusy and spicy, with fresh botanical notes, vibrant acidity and a dry, aromatic touch.",
       "price": 11,
-      "allergens": "no"
+      "alergenos": "does not contain"
+    },
+    {
+      "title": "closer to god",
+      "description": "Mezcal, Cocchi Americano aperitif, white wine, lemon sherbet, salty chamomile soda.",
+      "flavors": "smoky and citrusy, with herbal freshness and delicate saline notes, elegant and refreshing with a dry floral finish.",
+      "price": 11,
+      "alergenos": "does not contain"
+    },
+    {
+      "title": "blueberry hill",
+      "description": "Bacardi white rum, Palomino Fino wine, lemon, blueberry jam, egg white & beetroot powder.",
+      "flavors": "tangy and fruity with a silky texture, dry touches and natural sweetness.",
+      "price": 11,
+      "alergenos": "egg"
     },
     {
       "title": "penicillin",
       "description": "dewar's white label whiskey, lapsang tea, ginger & lemon",
       "flavors": "",
       "price": 11,
-      "allergens": "no"
+      "allergens": "does not contain"
     }
   ],
   "vinosNaturales": [

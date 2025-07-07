@@ -8,25 +8,25 @@
       "al·lèrgens": "no conté"
     },    
     {
-      "title": "torrija",
-      "description": "limoncello, manzanilla de sanlúcar, fulla d'olivera, eristoff vodka, llimona, oli d'oliva & clara d'ou.",
-      "flavors": "cremós, notes cítriques i amargues.",
-      "price": 12,
-      "al·lèrgens": "conté ou"
-    },    
+      "title": "antonietta",
+      "description": "vodka Grey Goose, vi manzanilla coconut sherry, llimona, sucre i soda.",
+      "flavors": "refrescant, delicadament herbal i cítric, amb una subtil nota de coco, exòtic i bombollejant.",
+      "price": 11,
+      "alergenos": "no conté"
+    },  
     {
-      "title": "astoria",
-      "description": "whisky escocès dewar´s white label, moscatell, porto blanc, pètals de roses & albercoc, angostura.",
-      "flavors": "pels amants del manhattan amb un petit twist.",
-      "price": 12,
-      "al·lèrgens": "no conté"
+      "title": "cheesecake white negroni",
+      "description": "Martini Bitter, vermut Martini Ambrato i Noilly Prat Dry, ginebra Bombay Sapphire, infusió de cheesecake.",
+      "flavors": "aromàtic i complex, amb amargors elegants, notes especiades i un final cremós i subtil que recorda un postre.",
+      "price": 11,
+      "alergenos": "no conté"
     },
     {
-      "title": "duquesa isabel",
-      "description": "sherry blend (manzanilla de sanlúcar i amontillat), te de gessamí, vermut bianco martini, tònica clàssica de la casa.",
-      "flavors": "fresc & mineral, amb tocs salins & amablement amarg.",
+      "title": "bitter banana split",
+      "description": "Whisky de sègol Michter's, Martini Bitter, licor de plàtan i cacau.",
+      "flavors": "intens i especiat, amb una amargor profunda, dolçor madura de plàtan i un tancament vellutat de cacau.",
       "price": 12,
-      "al·lèrgens": "no conté"
+      "alergenos": "no conté"
     },
     {
       "title": "philly vic punch",
@@ -36,11 +36,11 @@
       "al·lèrgens": "no conté"
     },
     {
-      "title": "southside bumb",
-      "description": "gin bombay dry, menta peperina, cogombre, xarop especiat de palomino fi de xerès, sorbet de taronja, cordial d'aigua & soda.",
-      "flavors": "millor que un mojito, més fresc, més verd, més xulo.",
-      "price": 12,
-      "al·lèrgens": "no conté"
+      "title": "after dark",
+      "description": "Tequila Patrón Blanco, aperitiu Cocchi Rosa, Amaro Montenegro, sorbet d'aranja, llimona.",
+      "flavors": "brillant i cítric, amb capes amargues i dolces ben equilibrades, tocs florals i un final vibrant d'aranja.",
+      "price": 13,
+      "alergenos": "no conté"
     },
     {
       "title": "la última palabra",
@@ -50,18 +50,18 @@
       "al·lèrgens": "no conté"
     },
     {
-      "title": "Tommy's mescalita",
-      "description": "mezcal unión, tequila blanc cazadores, atzavara & llima",
-      "flavors": "",
-      "price": 12,
-      "al·lèrgens": "no conté"
+      "title": "lonely calling",
+      "description": "Ginebra Condesa, barreja de xerès Lonely, llimona, sorbet de llimona i amargant d'Angostura.",
+      "flavors": "cítric i especiat, amb notes botàniques fresques, acidesa vibrant i un toc sec i aromàtic.",
+      "price": 11,
+      "alergenos": "no conté"
     },
     {
-      "title": "gin fino basil smash",
-      "description": "bombay dry gin, vi de xerès fino, alfàbrega & llimona",
-      "flavors": "",
+      "title": "closer to god",
+      "description": "Mezcal, aperitiu Cocchi Americano, vi blanc, sorbet de llimona, soda de camamilla salada.",
+      "flavors": "fumat i cítric, amb frescor herbal i delicades notes salines, elegant i refrescant amb un final floral i sec.",
       "price": 11,
-      "al·lèrgens": "no conté"
+      "alergenos": "no conté"
     },
     {
       "title": "penicillin",
