@@ -2,8 +2,8 @@
   "cocktails": [
     {
       "title": "paloma spritz",
-      "description": "tequila blanco cazadores, licor de flor de saüc st. germain, llima, aranja fumat, sour beer & soda.",
-      "flavors": "floral, cítric & agradablement fumat. bombolles simpàtiques.",
+      "description": "tequila blanco cazadores, licor de flor de saüc st. germain, llima, aranja, sour beer & soda.",
+      "flavors": "floral, agradablement cítric. bombolles simpàtiques.",
       "price": 11,
       "al·lèrgens": "no conté"
     },    
@@ -62,6 +62,20 @@
       "flavors": "fumat i cítric, amb frescor herbal i delicades notes salines, elegant i refrescant amb un final floral i sec.",
       "price": 12,
       "alergenos": "no conté"
+    },
+    {
+      "title": "blueberry hill",
+      "description": "rom Bacardí blanc, vi palomino fi, llimona, melmelada de nabius, clara d'ou i pols de remolatxa.",
+      "flavors": "àcid i afruitat amb textura sedosa, tocs secs i dolçor natural.",
+      "price": 11,
+      "alergenos": "ou"
+    },
+    {
+      "title": "gin fino basil smash",
+      "description": "bombay dry gin, vi de xerès fino, alfàbrega & llimona",
+      "flavors": "",
+      "price": 11,
+      "al·lèrgens": "no conté"
     },
     {
       "title": "penicillin",
