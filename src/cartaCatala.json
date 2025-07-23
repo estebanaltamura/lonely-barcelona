@@ -9,21 +9,21 @@
     },    
     {
       "title": "antonietta",
-      "description": "vodka Grey Goose, vi manzanilla coconut sherry, llimona, sucre i soda.",
+      "description": "vodka grey goose, vi manzanilla coconut sherry, llimona, sucre i soda.",
       "flavors": "refrescant, delicadament herbal i cítric, amb una subtil nota de coco, exòtic i bombollejant.",
       "price": 11,
       "alergenos": "no conté"
     },  
     {
       "title": "cheesecake white negroni",
-      "description": "Martini Bitter, vermut Martini Ambrato i Noilly Prat Dry, ginebra Bombay Sapphire, infusió de cheesecake.",
+      "description": "martini bitter, vermut martini ambrato i noilly prat dry, ginebra bombay sapphire, infusió de cheesecake.",
       "flavors": "aromàtic i complex, amb amargors elegants, notes especiades i un final cremós i subtil que recorda un postre.",
       "price": 11,
       "alergenos": "no conté"
     },
     {
       "title": "bitter banana split",
-      "description": "Whisky de sègol Michter's, Martini Bitter, licor de plàtan i cacau.",
+      "description": "Whisky de sègol michter's, martini bitter, licor de plàtan i cacau.",
       "flavors": "intens i especiat, amb una amargor profunda, dolçor madura de plàtan i un tancament vellutat de cacau.",
       "price": 12,
       "alergenos": "no conté"
@@ -37,7 +37,7 @@
     },
     {
       "title": "after dark",
-      "description": "Tequila Patrón Blanco, aperitiu Cocchi Rosa, Amaro Montenegro, sorbet d'aranja, llimona.",
+      "description": "tequila patrón blanco, aperitiu cocchi rosa, amaro montenegro, sorbet d'aranja, llimona.",
       "flavors": "brillant i cítric, amb capes amargues i dolces ben equilibrades, tocs florals i un final vibrant d'aranja.",
       "price": 13,
       "alergenos": "no conté"
@@ -51,21 +51,21 @@
     },
     {
       "title": "lonely calling",
-      "description": "Ginebra Condesa, barreja de xerès Lonely, llimona, sorbet de llimona i amargant d'Angostura.",
+      "description": "ginebra condesa, barreja de xerès Lonely, llimona, sorbet de llimona i angostura bitter.",
       "flavors": "cítric i especiat, amb notes botàniques fresques, acidesa vibrant i un toc sec i aromàtic.",
       "price": 11,
       "alergenos": "no conté"
     },
     {
       "title": "closer to god",
-      "description": "Mezcal, aperitiu Cocchi Americano, vi blanc, sorbet de llimona, soda de camamilla salada.",
+      "description": "mezcal, aperitiu cocchi americano, vi blanc, sorbet de llimona, soda de camamilla salada.",
       "flavors": "fumat i cítric, amb frescor herbal i delicades notes salines, elegant i refrescant amb un final floral i sec.",
       "price": 12,
       "alergenos": "no conté"
     },
     {
       "title": "blueberry hill",
-      "description": "rom Bacardí blanc, vi palomino fi, llimona, melmelada de nabius, clara d'ou i pols de remolatxa.",
+      "description": "rom bacardí blanc, vi palomino fi, llimona, melmelada de nabius, clara d'ou i pols de remolatxa.",
       "flavors": "àcid i afruitat amb textura sedosa, tocs secs i dolçor natural.",
       "price": 11,
       "alergenos": "ou"
@@ -78,9 +78,23 @@
       "al·lèrgens": "no conté"
     },
     {
+      "title": "adonis sour",
+      "description": "martini rubino, amontillado, sorbet de taronja i angostura bitter",
+      "flavors": "un home de gran bellesa, humor àcid i un toc d’amargor: m’ho quedo",
+      "price": 11,
+      "al·lèrgens": "ou"
+    },
+    {
+      "title": "lion's tail",
+      "description": "whisky dewar's white label, bourbon i pimiento dram",
+      "flavors": "aromàtic i especiat",
+      "price": 11,
+      "al·lèrgens": "no conté"
+    },
+    {
       "title": "penicillin",
       "description": "dewar's white label whiskey, te de lapsang, gingebre & llimona",
-      "flavors": "",
+      "flavors": "només amb recepta",
       "price": 11,
       "al·lèrgens": "no conté"
     }

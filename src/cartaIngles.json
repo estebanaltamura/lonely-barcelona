@@ -78,9 +78,23 @@
       "allergens": "does not contain"
     },
     {
+      "title": "adonis sour",
+      "description": "martini rubino, amontillado, orange sherbet, and angostura bitters",
+      "flavors": "a man of great beauty, sharp wit, and a touch of bitterness: I’ll take it",
+      "price": 11,
+      "allergens": "egg"
+    },
+    {
+      "title": "lion's tail",
+      "description": "dewar's white label whisky, bourbon, and pimento dram",
+      "flavors": "aromatic and spiced",
+      "price": 11,
+      "allergens": "does not contain"
+    },
+    {
       "title": "penicillin",
       "description": "dewar's white label whiskey, lapsang tea, ginger & lemon",
-      "flavors": "",
+      "flavors": "prescription only",
       "price": 11,
       "allergens": "does not contain"
     }
