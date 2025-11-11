@@ -6,14 +6,14 @@
       "flavors": "floral, agradablement cítric. bombolles simpàtiques.",
       "price": 11,
       "al·lèrgens": "no conté"
-    },    
+    },
     {
       "title": "antonietta",
       "description": "vodka grey goose, coconut sherry.",
       "flavors": "refrescant, delicadament herbal i cítric, amb una subtil nota de coco, exòtic i bombollejant.",
       "price": 11,
       "alergenos": "no conté"
-    },  
+    },
     {
       "title": "cheesecake white negroni",
       "description": "martini bitter, vermut martini ambrato i noilly prat dry, ginebra bombay sapphire, infusió de cheesecake.",
@@ -112,7 +112,7 @@
       "description": "martini floreale, alfàbrega, llimona i soda",
       "alergenos": "no conté"
     }
-  ],       
+  ],
   "vinosNaturales": [
     {
       "title": "la figa",
@@ -152,128 +152,128 @@
     }
   ],
   "vinsJerez": [
-  {
-    "title": "fino los amigos",
-    "price": "3",
-    "description": "sec i lleuger, (15%)",
-    "alergenos": "conté sulfits"
-  },
-  {
-    "title": "fino 10 gran barquero",
-    "price": "4",
-    "description": "frescor, elegància i complexitat, (15%)",
-    "alergenos": "conté sulfits"
-  },
-  {
-    "title": "fino 10 rama gran barquero",
-    "price": "6.5",
-    "description": "intens, harmònic i fresc, (15%)",
-    "alergenos": "conté sulfits"
-  },
-  {
-    "title": "amontillado 25 gran barquero",
-    "price": "6.5",
-    "description": "elegant i complex, (19%)",
-    "alergenos": "conté sulfits"
-  },
-  {
-    "title": "oloroso 25 gran barquero",
-    "price": "6.5",
-    "description": "intens, penetrant, ple de matisos, (19%)",
-    "alergenos": "conté sulfits"
-  }
-],
- "ginTonic": [
+    {
+      "title": "fino los amigos",
+      "price": "3",
+      "description": "sec i lleuger, (15%)",
+      "alergenos": "conté sulfits"
+    },
+    {
+      "title": "fino 10 gran barquero",
+      "price": "4",
+      "description": "frescor, elegància i complexitat, (15%)",
+      "alergenos": "conté sulfits"
+    },
+    {
+      "title": "fino 10 rama gran barquero",
+      "price": "6.5",
+      "description": "intens, harmònic i fresc, (15%)",
+      "alergenos": "conté sulfits"
+    },
+    {
+      "title": "amontillado 25 gran barquero",
+      "price": "6.5",
+      "description": "elegant i complex, (19%)",
+      "alergenos": "conté sulfits"
+    },
+    {
+      "title": "oloroso 25 gran barquero",
+      "price": "6.5",
+      "description": "intens, penetrant, ple de matisos, (19%)",
+      "alergenos": "conté sulfits"
+    }
+  ],
+  "ginTonic": [
     {
       "title": "bobombay dry",
-      "price":"11",
+      "price": "11",
       "alergenos": "no conté"
     },
     {
       "title": "bobombay sapphire",
-      "price":"11",
+      "price": "11",
       "alergenos": "no conté"
     },
     {
       "title": "bobombay cru",
-      "price":"12",
+      "price": "12",
       "alergenos": "no conté"
     },
     {
       "title": "corpen mestral",
-      "price":"12",
+      "price": "12",
       "alergenos": "no conté"
     },
     {
       "title": "condesa",
-      "price":"12",
+      "price": "12",
       "alergenos": "no conté"
     },
     {
       "title": "bes gin",
-      "price":"12",
+      "price": "12",
       "alergenos": "no conté"
-    } 
+    }
   ],
   "whisky": [
     {
       "title": "dewar's 12",
-      "price":"9",
+      "price": "9",
       "alergenos": "no conté"
     },
     {
       "title": "dewar's 15",
-      "price":"10",
+      "price": "10",
       "alergenos": "no conté"
     },
     {
       "title": "glenlivet founders reserve",
-      "price":"10",
+      "price": "10",
       "alergenos": "no conté"
     },
     {
       "title": "glenlivet 12",
-      "price":"10",
+      "price": "10",
       "alergenos": "no conté"
     },
     {
       "title": "tenjaku blend",
-      "price":"8",
+      "price": "8",
       "alergenos": "no conté"
     },
     {
       "title": "tenjaku pure malt",
-      "price":"10",
+      "price": "10",
       "alergenos": "no conté"
     },
     {
       "title": "laphroaig 10",
-      "price":"10",
+      "price": "10",
       "alergenos": "no conté"
     },
     {
       "title": "michter's bourbon",
-      "price":"12",
+      "price": "12",
       "alergenos": "no conté"
     },
     {
       "title": "michter's rye bourbon",
-      "price":"12",
+      "price": "12",
       "alergenos": "no conté"
     },
     {
       "title": "woodford reserve",
-      "price":"10",
+      "price": "10",
       "alergenos": "no conté"
     },
     {
       "title": "woodford reserve rye",
-      "price":"10",
+      "price": "10",
       "alergenos": "no conté"
     },
     {
       "title": "sazerac rye",
-      "price":"10",
+      "price": "10",
       "alergenos": "no conté"
     }
   ],
@@ -379,7 +379,7 @@
     },
     {
       "title": "eristoff",
-      "price":"8",
+      "price": "8",
       "alergenos": "no contiene"
     },
     {
@@ -391,32 +391,32 @@
   "vermut": [
     {
       "title": "martini rosso / bianco",
-      "price":"3.5",
+      "price": "3.5",
       "alergenos": "no conté"
     },
     {
       "title": "martini rubino / ambrato",
-      "price":"4.5",
+      "price": "4.5",
       "alergenos": "no conté"
     },
     {
       "title": "cocchi rosa",
-      "price":"6.5",
+      "price": "6.5",
       "alergenos": "no conté"
     },
     {
       "title": "cocchi americano",
-      "price":"6.5",
+      "price": "6.5",
       "alergenos": "no conté"
     },
     {
       "title": "cocchi di torino",
-      "price":"6",
+      "price": "6",
       "alergenos": "no conté"
     },
     {
       "title": "cocchi dopo teatro",
-      "price":"7.5",
+      "price": "7.5",
       "alergenos": "no conté"
     }
   ],
@@ -455,4 +455,3 @@
     }
   ]
 }
-

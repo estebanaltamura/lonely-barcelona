@@ -6,14 +6,14 @@
       "flavors": "floral, agradablemente citrico. burbujas simpaticas.",
       "price": 11,
       "alergenos": "no contiene"
-    },    
+    },
     {
       "title": "antonietta",
       "description": "vodka grey goose, coconut sherry",
       "flavors": "refresacante, delicadamente herbal y citrico, con un toque sutil de coco, exotico y burbujeante.",
       "price": 11,
       "alergenos": "no contiene"
-    },    
+    },
     {
       "title": "cheesecake white negroni",
       "description": "martini bitter, vermut martini ambrato y noilly prat dry, gin bombay sapphire, infusion de cheesecake.",
@@ -102,14 +102,14 @@
   "cocktailSinAlcohol": [
     {
       "title": "sober october",
-      "price":"8.5",
-      "description": "martini floreale, jengibre, limon y soda", 
+      "price": "8.5",
+      "description": "martini floreale, jengibre, limon y soda",
       "alergenos": "no contiene"
     },
     {
       "title": "i don't remember november",
-      "price":"8.5",
-      "description": "martini floreale, albahca, limon y soda", 
+      "price": "8.5",
+      "description": "martini floreale, albahca, limon y soda",
       "alergenos": "no contiene"
     }
   ],
@@ -151,273 +151,272 @@
       "alergenos": "contiene sulfitos"
     }
   ],
-   "vinosJerez": [
+  "vinosJerez": [
     {
       "title": "fino los amigos",
-      "price":"3",
+      "price": "3",
       "description": "seco y ligero, (15%)",
       "alergenos": "contiene sulfitos"
     },
     {
       "title": "fino 10 gran barquero",
-      "price":"4",
+      "price": "4",
       "description": "frescura, elegancia y complejidad, (15%)",
       "alergenos": "contiene sulfitos"
     },
     {
       "title": "fino 10 rama gran barquero",
-      "price":"6.5",
+      "price": "6.5",
       "description": "intenso, armonico y fresco, (15%)",
       "alergenos": "contiene sulfitos"
     },
     {
       "title": "amontillado 25 gran barquero",
-      "price":"6.5",
+      "price": "6.5",
       "description": "elegante y complejo, (19%)",
       "alergenos": "contiene sulfitos"
     },
     {
       "title": "oloroso 25 gran barquero",
-      "price":"6.5",
+      "price": "6.5",
       "description": " intenso, penetrante, repleto de matices, (19%)",
       "alergenos": "contiene sulfitos"
-    }   
+    }
   ],
- "ginTonic": [
+  "ginTonic": [
     {
       "title": "bobombay dry",
-      "price":"11",
+      "price": "11",
       "alergenos": "no contiene"
     },
     {
       "title": "bobombay sapphire",
-      "price":"11",
+      "price": "11",
       "alergenos": "no contiene"
     },
     {
       "title": "bobombay cru",
-      "price":"12",
+      "price": "12",
       "alergenos": "no contiene"
     },
     {
       "title": "corpen mestral",
-      "price":"12",
+      "price": "12",
       "alergenos": "no contiene"
     },
     {
       "title": "condesa",
-      "price":"12",
+      "price": "12",
       "alergenos": "no contiene"
     },
     {
       "title": "bes gin",
-      "price":"12",
+      "price": "12",
       "alergenos": "no contiene"
-    } 
-
+    }
   ],
   "whisky": [
     {
       "title": "dewar's 12",
-      "price":"9",
+      "price": "9",
       "alergenos": "no contiene"
     },
     {
       "title": "dewar's 15",
-      "price":"10",
+      "price": "10",
       "alergenos": "no contiene"
     },
     {
       "title": "glenlivet founders reserve",
-      "price":"10",
+      "price": "10",
       "alergenos": "no contiene"
     },
     {
       "title": "glenlivet 12",
-      "price":"10",
+      "price": "10",
       "alergenos": "no contiene"
     },
     {
       "title": "tenjaku blend",
-      "price":"8",
+      "price": "8",
       "alergenos": "no contiene"
     },
     {
       "title": "tenjaku pure malt",
-      "price":"10",
+      "price": "10",
       "alergenos": "no contiene"
     },
     {
       "title": "laphroaig 10",
-      "price":"10",
+      "price": "10",
       "alergenos": "no contiene"
     },
     {
       "title": "michter's bourbon",
-      "price":"12",
+      "price": "12",
       "alergenos": "no contiene"
     },
     {
       "title": "michter's rye bourbon",
-      "price":"12",
+      "price": "12",
       "alergenos": "no contiene"
     },
     {
       "title": "woodford reserve",
-      "price":"10",
+      "price": "10",
       "alergenos": "no contiene"
     },
     {
       "title": "woodford reserve rye",
-      "price":"10",
+      "price": "10",
       "alergenos": "no contiene"
     },
     {
       "title": "sazerac rye",
-      "price":"10",
+      "price": "10",
       "alergenos": "no contiene"
     }
   ],
   "rones": [
     {
       "title": "santa teresa añejo",
-      "price":"8",
+      "price": "8",
       "alergenos": "no contiene"
     },
     {
       "title": "santa teresa 1796",
-      "price":"10",
+      "price": "10",
       "alergenos": "no contiene"
     },
     {
       "title": "havanna 7",
-      "price":"8",
+      "price": "8",
       "alergenos": "no contiene"
     },
     {
       "title": "diplomatico",
-      "price":"10",
+      "price": "10",
       "alergenos": "no contiene"
     },
     {
       "title": "plantation xo",
-      "price":"12",
+      "price": "12",
       "alergenos": "no contiene"
     },
     {
       "title": "santiago de cuba",
-      "price":"8",
+      "price": "8",
       "alergenos": "no contiene"
     }
-  ], 
+  ],
   "agaves": [
     {
       "title": "mezcal union viejo",
-      "price":"14",
-      "description": "agave espadin y tobala, mantequilla y canela", 
+      "price": "14",
+      "description": "agave espadin y tobala, mantequilla y canela",
       "alergenos": "no contiene"
     },
     {
       "title": "mezcal union uno",
-      "price":"10",
-      "description": "agave espadin y cirial, equilibrado y citrico", 
+      "price": "10",
+      "description": "agave espadin y cirial, equilibrado y citrico",
       "alergenos": "no contiene"
     },
-     {
+    {
       "title": "mezcal koch elemental",
-      "price":"10",
-      "description": "agave espadín, frutas maduras y un toque herbal", 
+      "price": "10",
+      "description": "agave espadín, frutas maduras y un toque herbal",
       "alergenos": "no contiene"
     },
     {
       "title": "mezcal ojo de tigre",
-      "price":"8",
-      "description": "agave espadin y tobala, caramelo y un toque de frutos secos", 
+      "price": "8",
+      "description": "agave espadin y tobala, caramelo y un toque de frutos secos",
       "alergenos": "no contiene"
     },
-     {
+    {
       "title": "mezcal derrumbres durango",
-      "price":"11",
-      "description": "agave cenizo, frutos de verano, nueces y notas minerales", 
+      "price": "11",
+      "description": "agave cenizo, frutos de verano, nueces y notas minerales",
       "alergenos": "no contiene"
     },
     {
       "title": "tequila patron silver",
-      "price":"10",
+      "price": "10",
       "alergenos": "no contiene"
     },
     {
       "title": "tequila patron añejo",
-      "price":"16",
+      "price": "16",
       "alergenos": "no contiene"
     },
     {
       "title": "tequila cazadores blanco",
-      "price":"8",
+      "price": "8",
       "alergenos": "no contiene"
     },
     {
       "title": "tequila cazadores reposado",
-      "price":"8",
+      "price": "8",
       "alergenos": "no contiene"
     },
     {
       "title": "tequila 7 leguas blanco",
-      "price":"13",
+      "price": "13",
       "alergenos": "no contiene"
     },
     {
       "title": "tequila arette blanco",
-      "price":"10",
+      "price": "10",
       "alergenos": "no contiene"
     }
   ],
   "vodkas": [
     {
       "title": "grey goose",
-      "price":"11",
+      "price": "11",
       "alergenos": "no contiene"
     },
     {
       "title": "eristoff",
-      "price":"8",
+      "price": "8",
       "alergenos": "no contiene"
     },
     {
       "title": "koskenkorva",
-      "price":"8",
+      "price": "8",
       "alergenos": "no contiene"
     }
   ],
   "vermut": [
     {
       "title": "martini rosso / bianco",
-      "price":"3.5",
+      "price": "3.5",
       "alergenos": "no contiene"
     },
     {
       "title": "martini rubino / ambrato",
-      "price":"4.5",
+      "price": "4.5",
       "alergenos": "no contiene"
     },
     {
       "title": "cocchi rosa",
-      "price":"6.5",
+      "price": "6.5",
       "alergenos": "no contiene"
     },
     {
       "title": "cocchi americano",
-      "price":"6.5",
+      "price": "6.5",
       "alergenos": "no contiene"
     },
     {
       "title": "cocchi di torino",
-      "price":"6",
+      "price": "6",
       "alergenos": "no contiene"
     },
     {
       "title": "cocchi dopo teatro",
-      "price":"7.5",
+      "price": "7.5",
       "alergenos": "no contiene"
     }
   ],
@@ -456,4 +455,3 @@
     }
   ]
 }
-

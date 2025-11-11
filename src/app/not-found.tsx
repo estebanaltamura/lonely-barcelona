@@ -1,8 +1,8 @@
-'use client';
+"use client";
 
-import { Box, Typography } from '@mui/material';
-import { useRouter } from 'next/navigation';
-import { useEffect, useState } from 'react';
+import { Box, Typography } from "@mui/material";
+import { useRouter } from "next/navigation";
+import { useEffect, useState } from "react";
 
 const Error404 = () => {
   const [secondsToRedirect, setSecondsToRedirect] = useState<number>(3);
@@ -10,7 +10,7 @@ const Error404 = () => {
 
   useEffect(() => {
     if (secondsToRedirect === 0) {
-      router.push('/');
+      router.push("/");
     }
   }, [secondsToRedirect, router]);
 
@@ -30,32 +30,32 @@ const Error404 = () => {
   return (
     <Box
       sx={{
-        display: 'flex',
-        height: '100%',
-        alignItems: 'center',
+        display: "flex",
+        height: "100%",
+        alignItems: "center",
       }}
     >
       <Box
         sx={{
-          display: 'flex',
-          flexDirection: 'column',
-          alignItems: 'center',
-          gap: '10px',
+          display: "flex",
+          flexDirection: "column",
+          alignItems: "center",
+          gap: "10px",
         }}
       >
         <Typography
-          variant='h1'
-          sx={{ fontSize: '36px', fontWeight: '600', color: 'white' }}
+          variant="h1"
+          sx={{ fontSize: "36px", fontWeight: "600", color: "white" }}
         >
           Pagina no encontrada
         </Typography>
         <Typography
-          variant='body1'
-          sx={{ fontSize: '16px', fontWeight: '600', color: 'white' }}
+          variant="body1"
+          sx={{ fontSize: "16px", fontWeight: "600", color: "white" }}
         >
           {secondsToRedirect > 0
             ? `Redirigiendo a la pagina de inicio en ${secondsToRedirect}`
-            : 'Redirigiendo...'}
+            : "Redirigiendo..."}
         </Typography>
       </Box>
     </Box>
