@@ -274,7 +274,7 @@ const CartaCatala: React.FC = () => {
               <Typography
                 sx={{ fontSize: "12px", marginTop: "11px", lineHeight: "13px" }}
                 className="majorMonoDisplayFont"
-              >{`·alergenos: ${item.alergenos}`}</Typography>
+              >{`·al·lèrgens: ${item.alergenos}`}</Typography>
             </Box>
           </Box>
         ))}
@@ -408,7 +408,7 @@ const CartaCatala: React.FC = () => {
 
       {/* Items container*/}
       <Box sx={{ display: "flex", flexDirection: "column", marginTop: "55px" }}>
-        {carta.vinosNaturales.map((item, index) => (
+        {carta.vinsJerez.map((item, index) => (
           <Box key={index} sx={{ marginBottom: "35px" }}>
             {/* header */}
             <Box sx={{ display: "flex", width: "100%", fontSize: "32px" }}>
@@ -434,10 +434,7 @@ const CartaCatala: React.FC = () => {
                   lineHeight: "25px",
                 }}
               >
-                {`copa ${item.price.copa} €`}
-                <span>&nbsp;</span>·<span>&nbsp;</span>
-                {`botella ${item.price.botella} €`}
-                <span>&nbsp;</span>
+                {item.price} €<span>&nbsp;</span>
               </Box>
             </Box>
             {/*Description */}
@@ -472,7 +469,7 @@ const CartaCatala: React.FC = () => {
               <Typography
                 sx={{ fontSize: "12px", marginTop: "11px", lineHeight: "13px" }}
                 className="majorMonoDisplayFont"
-              >{`·al·lèrgens: ${item["al·lèrgens"]}`}</Typography>
+              >{`·al·lèrgens: ${item.alergenos}`}</Typography>
             </Box>
           </Box>
         ))}
@@ -507,7 +504,7 @@ const CartaCatala: React.FC = () => {
 
       {/* Items container*/}
       <Box sx={{ display: "flex", flexDirection: "column", marginTop: "55px" }}>
-        {carta.vinosNaturales.map((item, index) => (
+        {carta.ginTonic.map((item, index) => (
           <Box key={index} sx={{ marginBottom: "35px" }}>
             {/* header */}
             <Box sx={{ display: "flex", width: "100%", fontSize: "32px" }}>
@@ -533,10 +530,7 @@ const CartaCatala: React.FC = () => {
                   lineHeight: "25px",
                 }}
               >
-                {`copa ${item.price.copa} €`}
-                <span>&nbsp;</span>·<span>&nbsp;</span>
-                {`botella ${item.price.botella} €`}
-                <span>&nbsp;</span>
+                {item.price} €<span>&nbsp;</span>
               </Box>
             </Box>
             {/*Description */}
@@ -562,16 +556,11 @@ const CartaCatala: React.FC = () => {
                 }}
               ></Box>
 
-              <Typography
-                sx={{ fontSize: "12px", lineHeight: "13px", marginTop: "19px" }}
-                className="majorMonoDisplayFont"
-              >
-                {item.description}
-              </Typography>
+             
               <Typography
                 sx={{ fontSize: "12px", marginTop: "11px", lineHeight: "13px" }}
                 className="majorMonoDisplayFont"
-              >{`·al·lèrgens: ${item["al·lèrgens"]}`}</Typography>
+              >{`·al·lèrgens: ${item.alergenos}`}</Typography>
             </Box>
           </Box>
         ))}
@@ -606,7 +595,7 @@ const CartaCatala: React.FC = () => {
 
       {/* Items container*/}
       <Box sx={{ display: "flex", flexDirection: "column", marginTop: "55px" }}>
-        {carta.vinosNaturales.map((item, index) => (
+        {carta.whisky.map((item, index) => (
           <Box key={index} sx={{ marginBottom: "35px" }}>
             {/* header */}
             <Box sx={{ display: "flex", width: "100%", fontSize: "32px" }}>
@@ -632,10 +621,7 @@ const CartaCatala: React.FC = () => {
                   lineHeight: "25px",
                 }}
               >
-                {`copa ${item.price.copa} €`}
-                <span>&nbsp;</span>·<span>&nbsp;</span>
-                {`botella ${item.price.botella} €`}
-                <span>&nbsp;</span>
+                {item.price} €<span>&nbsp;</span>
               </Box>
             </Box>
             {/*Description */}
@@ -661,16 +647,11 @@ const CartaCatala: React.FC = () => {
                 }}
               ></Box>
 
-              <Typography
-                sx={{ fontSize: "12px", lineHeight: "13px", marginTop: "19px" }}
-                className="majorMonoDisplayFont"
-              >
-                {item.description}
-              </Typography>
+             
               <Typography
                 sx={{ fontSize: "12px", marginTop: "11px", lineHeight: "13px" }}
                 className="majorMonoDisplayFont"
-              >{`·al·lèrgens: ${item["al·lèrgens"]}`}</Typography>
+              >{`·al·lèrgens: ${item.alergenos}`}</Typography>
             </Box>
           </Box>
         ))}
@@ -760,7 +741,7 @@ const CartaCatala: React.FC = () => {
                       <Typography
                         sx={{ fontSize: "12px", marginTop: "11px", lineHeight: "13px" }}
                         className="majorMonoDisplayFont"
-                      >{`·alergenos: ${item.alergenos}`}</Typography>
+                      >{`·al·lèrgens: ${item.alergenos}`}</Typography>
                     </Box>
                   </Box>
                 ))}
@@ -865,7 +846,7 @@ const CartaCatala: React.FC = () => {
                             <Typography
                               sx={{ fontSize: "12px", marginTop: "11px", lineHeight: "13px" }}
                               className="majorMonoDisplayFont"
-                            >{`·alergenos: ${item.alergenos}`}</Typography>
+                            >{`·al·lèrgens: ${item.alergenos}`}</Typography>
                           </Box>
                         </Box>
                       ))}
@@ -961,7 +942,7 @@ const CartaCatala: React.FC = () => {
                                   <Typography
                                     sx={{ fontSize: "12px", marginTop: "11px", lineHeight: "13px" }}
                                     className="majorMonoDisplayFont"
-                                  >{`·alergenos: ${item.alergenos}`}</Typography>
+                                  >{`·al·lèrgens: ${item.alergenos}`}</Typography>
                                 </Box>
                               </Box>
                             ))}
