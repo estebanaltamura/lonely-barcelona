@@ -68,12 +68,12 @@
       "description": "rom bacardí blanc, vi palomino fi, llimona, melmelada de nabius, clara d'ou i pols de remolatxa.",
       "flavors": "àcid i afruitat amb textura sedosa, tocs secs i dolçor natural.",
       "price": 11,
-      "alergenos": "ou"
+      "alergenos": "conté ou"
     },
     {
       "title": "gin fino basil smash",
       "description": "bombay dry gin, vi de xerès fino, alfàbrega & llimona",
-      "flavors": "",
+      "flavors": "fresc amb final intens",
       "price": 11,
       "al·lèrgens": "no conté"
     },
@@ -82,7 +82,7 @@
       "description": "martini rubino, amontillado, sorbet de taronja i angostura bitter",
       "flavors": "un home de gran bellesa, humor àcid i un toc d’amargor: m’ho quedo",
       "price": 11,
-      "al·lèrgens": "ou"
+      "al·lèrgens": "conté ou"
     },
     {
       "title": "lion's tail",
@@ -99,6 +99,20 @@
       "al·lèrgens": "no conté"
     }
   ],
+  "cocktail sense alcohol": [
+    {
+      "title": "sober october",
+      "price": "8.5",
+      "description": "martini floreale, gingebre, llimona i soda",
+      "alergenos": "no conté"
+    },
+    {
+      "title": "i don't remember november",
+      "price": "8.5",
+      "description": "martini floreale, alfàbrega, llimona i soda",
+      "alergenos": "no conté"
+    }
+  ],       
   "vinosNaturales": [
     {
       "title": "la figa",
@@ -135,71 +149,282 @@
         "botella": "30"
       },
       "al·lèrgens": "conté sulfits"
-    },
-    {
-      "title": "virra",
-      "description": "fet amb les pells del raïm i refermentat amb most.",
-      "price": {
-        "copa": "5.50",
-        "botella": "30"
-      },
-      "al·lèrgens": "conté sulfits"
     }
   ],
-  "vinosJerez": [
+  "vinsJerez": [
+  {
+    "title": "fino los amigos",
+    "price": "3",
+    "description": "sec i lleuger, (15%)",
+    "alergenos": "conté sulfits"
+  },
+  {
+    "title": "fino 10 gran barquero",
+    "price": "4",
+    "description": "frescor, elegància i complexitat, (15%)",
+    "alergenos": "conté sulfits"
+  },
+  {
+    "title": "fino 10 rama gran barquero",
+    "price": "6.5",
+    "description": "intens, harmònic i fresc, (15%)",
+    "alergenos": "conté sulfits"
+  },
+  {
+    "title": "amontillado 25 gran barquero",
+    "price": "6.5",
+    "description": "elegant i complex, (19%)",
+    "alergenos": "conté sulfits"
+  },
+  {
+    "title": "oloroso 25 gran barquero",
+    "price": "6.5",
+    "description": "intens, penetrant, ple de matisos, (19%)",
+    "alergenos": "conté sulfits"
+  }
+],
+ "ginTonic": [
     {
-      "title": "Ejemplo",
-      "description": "Ejemplo",
-      "price": {
-        "copa": "5.5",
-        "botella": "30"
-      },
-      "alergenos": "contiene sulfitos"
-    }    
-  ],
-  "ginTonic": [
+      "title": "bobombay dry",
+      "price":"11",
+      "alergenos": "no conté"
+    },
     {
-      "title": "Ejemplo",
-      "description": "Ejemplo",
-      "price": {
-        "copa": "5.5",
-        "botella": "30"
-      },
-      "alergenos": "contiene sulfitos"
-    }    
+      "title": "bobombay sapphire",
+      "price":"11",
+      "alergenos": "no conté"
+    },
+    {
+      "title": "bobombay cru",
+      "price":"12",
+      "alergenos": "no conté"
+    },
+    {
+      "title": "corpen mestral",
+      "price":"12",
+      "alergenos": "no conté"
+    },
+    {
+      "title": "condesa",
+      "price":"12",
+      "alergenos": "no conté"
+    },
+    {
+      "title": "bes gin",
+      "price":"12",
+      "alergenos": "no conté"
+    } 
   ],
   "whisky": [
     {
-      "title": "Ejemplo",
-      "description": "Ejemplo",
-      "price": {
-        "copa": "5.5",
-        "botella": "30"
-      },
-      "alergenos": "contiene sulfitos"
-    }    
+      "title": "dewar's 12",
+      "price":"9",
+      "alergenos": "no conté"
+    },
+    {
+      "title": "dewar's 15",
+      "price":"10",
+      "alergenos": "no conté"
+    },
+    {
+      "title": "glenlivet founders reserve",
+      "price":"10",
+      "alergenos": "no conté"
+    },
+    {
+      "title": "glenlivet 12",
+      "price":"10",
+      "alergenos": "no conté"
+    },
+    {
+      "title": "tenjaku blend",
+      "price":"8",
+      "alergenos": "no conté"
+    },
+    {
+      "title": "tenjaku pure malt",
+      "price":"10",
+      "alergenos": "no conté"
+    },
+    {
+      "title": "laphroaig 10",
+      "price":"10",
+      "alergenos": "no conté"
+    },
+    {
+      "title": "michter's bourbon",
+      "price":"12",
+      "alergenos": "no conté"
+    },
+    {
+      "title": "michter's rye bourbon",
+      "price":"12",
+      "alergenos": "no conté"
+    },
+    {
+      "title": "woodford reserve",
+      "price":"10",
+      "alergenos": "no conté"
+    },
+    {
+      "title": "woodford reserve rye",
+      "price":"10",
+      "alergenos": "no conté"
+    },
+    {
+      "title": "sazerac rye",
+      "price":"10",
+      "alergenos": "no conté"
+    }
+  ],
+  "rones": [
+    {
+      "title": "santa teresa añejo",
+      "price": "8",
+      "alergenos": "no conté"
+    },
+    {
+      "title": "santa teresa 1796",
+      "price": "10",
+      "alergenos": "no conté"
+    },
+    {
+      "title": "havanna 7",
+      "price": "8",
+      "alergenos": "no conté"
+    },
+    {
+      "title": "diplomatico",
+      "price": "10",
+      "alergenos": "no conté"
+    },
+    {
+      "title": "plantation xo",
+      "price": "12",
+      "alergenos": "no conté"
+    },
+    {
+      "title": "santiago de cuba",
+      "price": "8",
+      "alergenos": "no conté"
+    }
+  ],
+  "agaves": [
+    {
+      "title": "mezcal union viejo",
+      "price": "14",
+      "description": "agave espadín i tobala, mantega i canyella",
+      "alergenos": "no conté"
+    },
+    {
+      "title": "mezcal union uno",
+      "price": "10",
+      "description": "agave espadín i cirial, equilibrat i cítric",
+      "alergenos": "no conté"
+    },
+    {
+      "title": "mezcal koch elemental",
+      "price": "10",
+      "description": "agave espadín, fruites madures i un toc d'herbes",
+      "alergenos": "no conté"
+    },
+    {
+      "title": "mezcal ojo de tigre",
+      "price": "8",
+      "description": "agave espadín i tobala, caramel i un toc de fruits secs",
+      "alergenos": "no conté"
+    },
+    {
+      "title": "mezcal derrumbres durango",
+      "price": "11",
+      "description": "agave cenizo, fruits d'estiu, nous i notes minerals",
+      "alergenos": "no conté"
+    },
+    {
+      "title": "tequila patron silver",
+      "price": "10",
+      "alergenos": "no conté"
+    },
+    {
+      "title": "tequila patron añejo",
+      "price": "16",
+      "alergenos": "no conté"
+    },
+    {
+      "title": "tequila cazadores blanco",
+      "price": "8",
+      "alergenos": "no conté"
+    },
+    {
+      "title": "tequila cazadores reposado",
+      "price": "8",
+      "alergenos": "no conté"
+    },
+    {
+      "title": "tequila 7 leguas blanco",
+      "price": "13",
+      "alergenos": "no conté"
+    },
+    {
+      "title": "tequila arette blanco",
+      "price": "10",
+      "alergenos": "no conté"
+    }
+  ],
+  "vodkas": [
+    {
+      "title": "grey goose",
+      "price": "11",
+      "alergenos": "no conté"
+    },
+    {
+      "title": "eristoff",
+      "price":"8",
+      "alergenos": "no contiene"
+    },
+    {
+      "title": "koskenkorva",
+      "price": "8",
+      "alergenos": "no conté"
+    }
   ],
   "vermut": [
     {
-      "title": "Ejemplo",
-      "description": "Ejemplo",
-      "price": {
-        "copa": "5.5",
-        "botella": "30"
-      },
-      "alergenos": "contiene sulfitos"
-    }    
+      "title": "martini rosso / bianco",
+      "price":"3.5",
+      "alergenos": "no conté"
+    },
+    {
+      "title": "martini rubino / ambrato",
+      "price":"4.5",
+      "alergenos": "no conté"
+    },
+    {
+      "title": "cocchi rosa",
+      "price":"6.5",
+      "alergenos": "no conté"
+    },
+    {
+      "title": "cocchi americano",
+      "price":"6.5",
+      "alergenos": "no conté"
+    },
+    {
+      "title": "cocchi di torino",
+      "price":"6",
+      "alergenos": "no conté"
+    },
+    {
+      "title": "cocchi dopo teatro",
+      "price":"7.5",
+      "alergenos": "no conté"
+    }
   ],
   "cervezas": [
     {
       "title": "almogàver vicious ipa",
-      "price": "4.60",
+      "price": "4.6",
       "al·lèrgens": "no conté"
-    },
-    {
-      "title": "almogàver vnancy ipa",
-      "price": "4.60",
-      "al·lèrgens": "conté gluten"
     },
     {
       "title": "almogàver txiringuito sour",
@@ -221,7 +446,7 @@
     {
       "title": "olives tutti frutti",
       "price": "3.5",
-      "al·lèrgens": "no"
+      "al·lèrgens": "no conté"
     },
     {
       "title": "gildas d`anxova",
