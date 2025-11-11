@@ -99,7 +99,7 @@
       "allergens": "does not contain"
     }
   ],
-  "non-alcoholic cocktails": [
+  "cocktailSinAlcohol": [
     {
       "title": "sober october",
       "price": "8.5",
@@ -151,7 +151,7 @@
       "allergens": "contains sulfites"
     }
   ],
-  "sherryWines": [
+  "vinosJerez": [
   {
     "title": "fino los amigos",
     "price": "3",
@@ -277,7 +277,7 @@
       "alergenos": "does not contain"
     }
   ],
-  "rums": [
+  "rones": [
    {
      "title": "santa teresa añejo",
      "price": "8",
