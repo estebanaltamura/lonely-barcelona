@@ -289,6 +289,406 @@ const CartaCatala: React.FC = () => {
           marginTop: '45px',
         }}
       >
+        Sherry wines
+      </Box>
+
+      {/* Items container*/}
+      <Box sx={{ display: 'flex', flexDirection: 'column', marginTop: '55px' }}>
+        {carta.vinosNaturales.map((item, index) => (
+          <Box key={index} sx={{ marginBottom: '35px' }}>
+            {/* header */}
+            <Box sx={{ display: 'flex', width: '100%', fontSize: '32px' }}>
+              <Box
+                sx={{
+                  display: 'flex',
+                  width: '140px',
+                  lineHeight: '25px',
+                  flexWrap: 'wrap',
+                  fontFamily: 'Happy Time Three',
+                }}
+              >
+                {item.title}
+              </Box>
+              <Box sx={{ display: 'flex', flexGrow: 1 }}></Box>
+              <Box
+                sx={{
+                  position: 'relative',
+                  display: 'flex',
+                  top: '4px',
+                  fontFamily: 'Happy Time Three',
+                  fontSize: '18px',
+                  lineHeight: '25px',
+                }}
+              >
+                {`copa ${item.price.copa} €`}
+                <span>&nbsp;</span>·<span>&nbsp;</span>
+                {`botella ${item.price.botella} €`}
+                <span>&nbsp;</span>
+              </Box>
+            </Box>
+            {/*Description */}
+            <Box
+              sx={{
+                position: 'relative',
+
+                marginTop: '13px',
+                paddingLeft: '8px',
+              }}
+            >
+              <Box
+                sx={{
+                  '::before': {
+                    content: '""',
+                    position: 'absolute',
+                    left: 0,
+                    top: '4%',
+                    bottom: '2%',
+                    width: '1px',
+                    backgroundColor: '#FCF0DD',
+                  },
+                }}
+              ></Box>
+
+              <Typography
+                sx={{ fontSize: '12px', lineHeight: '13px', marginTop: '19px' }}
+                className='majorMonoDisplayFont'
+              >
+                {item.description}
+              </Typography>
+              <Typography
+                              sx={{ fontSize: '12px', marginTop: '11px', lineHeight: '13px' }}
+                              className='majorMonoDisplayFont'
+                            >{`·allergens: ${item.allergens}`}</Typography>
+            </Box>
+          </Box>
+        ))}
+      </Box>
+
+
+      <Box
+        sx={{
+          display: 'flex',
+          width: '100%',
+          justifyContent: 'center',
+          margin: '40px 0 20px 0',
+        }}
+      >
+        <Divider
+          sx={{ width: '100%', height: '1.5px', backgroundColor: '#FCF0DD' }}
+        />
+      </Box>
+
+      {/* Título de sección */}
+      <Box
+        sx={{
+          width: '240px',
+          fontSize: '55px',
+          lineHeight: '29px',
+          fontFamily: 'Happy Time Three',
+          color: '#FCF0DD',
+          marginTop: '45px',
+        }}
+      >
+        Gin and tonic
+      </Box>
+
+      {/* Items container*/}
+      <Box sx={{ display: 'flex', flexDirection: 'column', marginTop: '55px' }}>
+        {carta.vinosNaturales.map((item, index) => (
+          <Box key={index} sx={{ marginBottom: '35px' }}>
+            {/* header */}
+            <Box sx={{ display: 'flex', width: '100%', fontSize: '32px' }}>
+              <Box
+                sx={{
+                  display: 'flex',
+                  width: '140px',
+                  lineHeight: '25px',
+                  flexWrap: 'wrap',
+                  fontFamily: 'Happy Time Three',
+                }}
+              >
+                {item.title}
+              </Box>
+              <Box sx={{ display: 'flex', flexGrow: 1 }}></Box>
+              <Box
+                sx={{
+                  position: 'relative',
+                  display: 'flex',
+                  top: '4px',
+                  fontFamily: 'Happy Time Three',
+                  fontSize: '18px',
+                  lineHeight: '25px',
+                }}
+              >
+                {`copa ${item.price.copa} €`}
+                <span>&nbsp;</span>·<span>&nbsp;</span>
+                {`botella ${item.price.botella} €`}
+                <span>&nbsp;</span>
+              </Box>
+            </Box>
+            {/*Description */}
+            <Box
+              sx={{
+                position: 'relative',
+
+                marginTop: '13px',
+                paddingLeft: '8px',
+              }}
+            >
+              <Box
+                sx={{
+                  '::before': {
+                    content: '""',
+                    position: 'absolute',
+                    left: 0,
+                    top: '4%',
+                    bottom: '2%',
+                    width: '1px',
+                    backgroundColor: '#FCF0DD',
+                  },
+                }}
+              ></Box>
+
+              <Typography
+                sx={{ fontSize: '12px', lineHeight: '13px', marginTop: '19px' }}
+                className='majorMonoDisplayFont'
+              >
+                {item.description}
+              </Typography>
+              <Typography
+                              sx={{ fontSize: '12px', marginTop: '11px', lineHeight: '13px' }}
+                              className='majorMonoDisplayFont'
+                            >{`·allergens: ${item.allergens}`}</Typography>
+            </Box>
+          </Box>
+        ))}
+      </Box>
+
+
+      <Box
+        sx={{
+          display: 'flex',
+          width: '100%',
+          justifyContent: 'center',
+          margin: '40px 0 20px 0',
+        }}
+      >
+        <Divider
+          sx={{ width: '100%', height: '1.5px', backgroundColor: '#FCF0DD' }}
+        />
+      </Box>
+
+      {/* Título de sección */}
+      <Box
+        sx={{
+          width: '240px',
+          fontSize: '55px',
+          lineHeight: '29px',
+          fontFamily: 'Happy Time Three',
+          color: '#FCF0DD',
+          marginTop: '45px',
+        }}
+      >
+        Whisky
+      </Box>
+
+      {/* Items container*/}
+      <Box sx={{ display: 'flex', flexDirection: 'column', marginTop: '55px' }}>
+        {carta.vinosNaturales.map((item, index) => (
+          <Box key={index} sx={{ marginBottom: '35px' }}>
+            {/* header */}
+            <Box sx={{ display: 'flex', width: '100%', fontSize: '32px' }}>
+              <Box
+                sx={{
+                  display: 'flex',
+                  width: '140px',
+                  lineHeight: '25px',
+                  flexWrap: 'wrap',
+                  fontFamily: 'Happy Time Three',
+                }}
+              >
+                {item.title}
+              </Box>
+              <Box sx={{ display: 'flex', flexGrow: 1 }}></Box>
+              <Box
+                sx={{
+                  position: 'relative',
+                  display: 'flex',
+                  top: '4px',
+                  fontFamily: 'Happy Time Three',
+                  fontSize: '18px',
+                  lineHeight: '25px',
+                }}
+              >
+                {`copa ${item.price.copa} €`}
+                <span>&nbsp;</span>·<span>&nbsp;</span>
+                {`botella ${item.price.botella} €`}
+                <span>&nbsp;</span>
+              </Box>
+            </Box>
+            {/*Description */}
+            <Box
+              sx={{
+                position: 'relative',
+
+                marginTop: '13px',
+                paddingLeft: '8px',
+              }}
+            >
+              <Box
+                sx={{
+                  '::before': {
+                    content: '""',
+                    position: 'absolute',
+                    left: 0,
+                    top: '4%',
+                    bottom: '2%',
+                    width: '1px',
+                    backgroundColor: '#FCF0DD',
+                  },
+                }}
+              ></Box>
+
+              <Typography
+                sx={{ fontSize: '12px', lineHeight: '13px', marginTop: '19px' }}
+                className='majorMonoDisplayFont'
+              >
+                {item.description}
+              </Typography>
+              <Typography
+                              sx={{ fontSize: '12px', marginTop: '11px', lineHeight: '13px' }}
+                              className='majorMonoDisplayFont'
+                            >{`·allergens: ${item.allergens}`}</Typography>
+            </Box>
+          </Box>
+        ))}
+      </Box>
+
+
+      <Box
+        sx={{
+          display: 'flex',
+          width: '100%',
+          justifyContent: 'center',
+          margin: '40px 0 20px 0',
+        }}
+      >
+        <Divider
+          sx={{ width: '100%', height: '1.5px', backgroundColor: '#FCF0DD' }}
+        />
+      </Box>
+
+      {/* Título de sección */}
+      <Box
+        sx={{
+          width: '240px',
+          fontSize: '55px',
+          lineHeight: '29px',
+          fontFamily: 'Happy Time Three',
+          color: '#FCF0DD',
+          marginTop: '45px',
+        }}
+      >
+        Vermouth
+      </Box>
+
+      {/* Items container*/}
+      <Box sx={{ display: 'flex', flexDirection: 'column', marginTop: '55px' }}>
+        {carta.vinosNaturales.map((item, index) => (
+          <Box key={index} sx={{ marginBottom: '35px' }}>
+            {/* header */}
+            <Box sx={{ display: 'flex', width: '100%', fontSize: '32px' }}>
+              <Box
+                sx={{
+                  display: 'flex',
+                  width: '140px',
+                  lineHeight: '25px',
+                  flexWrap: 'wrap',
+                  fontFamily: 'Happy Time Three',
+                }}
+              >
+                {item.title}
+              </Box>
+              <Box sx={{ display: 'flex', flexGrow: 1 }}></Box>
+              <Box
+                sx={{
+                  position: 'relative',
+                  display: 'flex',
+                  top: '4px',
+                  fontFamily: 'Happy Time Three',
+                  fontSize: '18px',
+                  lineHeight: '25px',
+                }}
+              >
+                {`copa ${item.price.copa} €`}
+                <span>&nbsp;</span>·<span>&nbsp;</span>
+                {`botella ${item.price.botella} €`}
+                <span>&nbsp;</span>
+              </Box>
+            </Box>
+            {/*Description */}
+            <Box
+              sx={{
+                position: 'relative',
+
+                marginTop: '13px',
+                paddingLeft: '8px',
+              }}
+            >
+              <Box
+                sx={{
+                  '::before': {
+                    content: '""',
+                    position: 'absolute',
+                    left: 0,
+                    top: '4%',
+                    bottom: '2%',
+                    width: '1px',
+                    backgroundColor: '#FCF0DD',
+                  },
+                }}
+              ></Box>
+
+              <Typography
+                sx={{ fontSize: '12px', lineHeight: '13px', marginTop: '19px' }}
+                className='majorMonoDisplayFont'
+              >
+                {item.description}
+              </Typography>
+              <Typography
+                              sx={{ fontSize: '12px', marginTop: '11px', lineHeight: '13px' }}
+                              className='majorMonoDisplayFont'
+                            >{`·allergens: ${item.allergens}`}</Typography>
+            </Box>
+          </Box>
+        ))}
+      </Box>
+
+
+      <Box
+        sx={{
+          display: 'flex',
+          width: '100%',
+          justifyContent: 'center',
+          margin: '40px 0 20px 0',
+        }}
+      >
+        <Divider
+          sx={{ width: '100%', height: '1.5px', backgroundColor: '#FCF0DD' }}
+        />
+      </Box>
+
+      {/* Título de sección */}
+      <Box
+        sx={{
+          width: '240px',
+          fontSize: '55px',
+          lineHeight: '29px',
+          fontFamily: 'Happy Time Three',
+          color: '#FCF0DD',
+          marginTop: '45px',
+        }}
+      >
         Beers
       </Box>
 
