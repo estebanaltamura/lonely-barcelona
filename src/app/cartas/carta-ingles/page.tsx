@@ -216,15 +216,15 @@ const CartaCatala: React.FC = () => {
               </Box>
               <Box sx={{ display: "flex", flexGrow: 1 }}></Box>
               <Box
-                sx={{
-                  display: "flex",
-                  alignItems: "end",
-                  fontFamily: "Happy Time Three",
-                  lineHeight: "25px",
-                }}
-              >
-                {item.price} €<span>&nbsp;</span>
-              </Box>
+                              sx={{
+                                display: "flex",
+                                alignItems: "end",
+                                fontFamily: "Happy Time Three",
+                                lineHeight: "25px",
+                              }}
+                            >
+                              {item.price} €<span>&nbsp;</span>
+                            </Box>
             </Box>
             {/*Description */}
             <Box
@@ -408,16 +408,16 @@ const CartaCatala: React.FC = () => {
                               {item.title}
                             </Box>
                             <Box sx={{ display: "flex", flexGrow: 1 }}></Box>
-                            <Box
-                              sx={{
-                                display: "flex",
-                                alignItems: "end",
-                                fontFamily: "Happy Time Three",
-                                lineHeight: "25px",
-                              }}
-                            >
-                              {item.price} €<span>&nbsp;</span>
-                            </Box>
+                           <Box
+                                           sx={{
+                                             display: "flex",
+                                             alignItems: "end",
+                                             fontFamily: "Happy Time Three",
+                                             lineHeight: "25px",
+                                           }}
+                                         >
+                                           {item.price} €<span>&nbsp;</span>
+                                         </Box>
                           </Box>
             {/*Description */}
             <Box
@@ -503,17 +503,15 @@ const CartaCatala: React.FC = () => {
               </Box>
               <Box sx={{ display: "flex", flexGrow: 1 }}></Box>
               <Box
-                sx={{
-                  position: "relative",
-                  display: "flex",
-                  top: "4px",
-                  fontFamily: "Happy Time Three",
-                  fontSize: "18px",
-                  lineHeight: "25px",
-                }}
-              >
-                {item.price} €<span>&nbsp;</span>
-              </Box>
+                              sx={{
+                                display: "flex",
+                                alignItems: "end",
+                                fontFamily: "Happy Time Three",
+                                lineHeight: "25px",
+                              }}
+                            >
+                              {item.price} €<span>&nbsp;</span>
+                            </Box>
             </Box>
             {/*Description */}
             <Box
@@ -594,17 +592,15 @@ const CartaCatala: React.FC = () => {
               </Box>
               <Box sx={{ display: "flex", flexGrow: 1 }}></Box>
               <Box
-                sx={{
-                  position: "relative",
-                  display: "flex",
-                  top: "4px",
-                  fontFamily: "Happy Time Three",
-                  fontSize: "18px",
-                  lineHeight: "25px",
-                }}
-              >
-                {item.price} €<span>&nbsp;</span>
-              </Box>
+                              sx={{
+                                display: "flex",
+                                alignItems: "end",
+                                fontFamily: "Happy Time Three",
+                                lineHeight: "25px",
+                              }}
+                            >
+                              {item.price} €<span>&nbsp;</span>
+                            </Box>
             </Box>
             {/*Description */}
             <Box
@@ -686,16 +682,16 @@ const CartaCatala: React.FC = () => {
                         {item.title}
                       </Box>
                       <Box sx={{ display: "flex", flexGrow: 1 }}></Box>
-                      <Box
-                        sx={{
-                          display: "flex",
-                          alignItems: "end",
-                          fontFamily: "Happy Time Three",
-                          lineHeight: "25px",
-                        }}
-                      >
-                        {item.price} €<span>&nbsp;</span>
-                      </Box>
+                     <Box
+                                     sx={{
+                                       display: "flex",
+                                       alignItems: "end",
+                                       fontFamily: "Happy Time Three",
+                                       lineHeight: "25px",
+                                     }}
+                                   >
+                                     {item.price} €<span>&nbsp;</span>
+                                   </Box>
                     </Box>
                     {/*Description */}
                     <Box
@@ -787,15 +783,15 @@ const CartaCatala: React.FC = () => {
                             </Box>
                             <Box sx={{ display: "flex", flexGrow: 1 }}></Box>
                             <Box
-                              sx={{
-                                display: "flex",
-                                alignItems: "end",
-                                fontFamily: "Happy Time Three",
-                                lineHeight: "25px",
-                              }}
-                            >
-                              {item.price} €<span>&nbsp;</span>
-                            </Box>
+                                            sx={{
+                                              display: "flex",
+                                              alignItems: "end",
+                                              fontFamily: "Happy Time Three",
+                                              lineHeight: "25px",
+                                            }}
+                                          >
+                                            {item.price} €<span>&nbsp;</span>
+                                          </Box>
                           </Box>
                           {/*Description */}
                           <Box
@@ -888,15 +884,15 @@ const CartaCatala: React.FC = () => {
                                   </Box>
                                   <Box sx={{ display: "flex", flexGrow: 1 }}></Box>
                                   <Box
-                                    sx={{
-                                      display: "flex",
-                                      alignItems: "end",
-                                      fontFamily: "Happy Time Three",
-                                      lineHeight: "25px",
-                                    }}
-                                  >
-                                    {item.price} €<span>&nbsp;</span>
-                                  </Box>
+                                                  sx={{
+                                                    display: "flex",
+                                                    alignItems: "end",
+                                                    fontFamily: "Happy Time Three",
+                                                    lineHeight: "25px",
+                                                  }}
+                                                >
+                                                  {item.price} €<span>&nbsp;</span>
+                                                </Box>
                                 </Box>
                                 {/*Description */}
                                 <Box
@@ -1079,16 +1075,16 @@ const CartaCatala: React.FC = () => {
                 {item.title}
               </Box>
               <Box sx={{ display: "flex", flexGrow: 1 }}></Box>
-              <Box
-                sx={{
-                  display: "flex",
-                  alignItems: "end",
-                  fontFamily: "Happy Time Three",
-                  lineHeight: "25px",
-                }}
-              >
-                {item.price} €<span>&nbsp;</span>
-              </Box>
+             <Box
+                             sx={{
+                               display: "flex",
+                               alignItems: "end",
+                               fontFamily: "Happy Time Three",
+                               lineHeight: "25px",
+                             }}
+                           >
+                             {item.price} €<span>&nbsp;</span>
+                           </Box>
             </Box>
             {/*Description */}
             <Box
@@ -1167,15 +1163,15 @@ const CartaCatala: React.FC = () => {
               </Box>
               <Box sx={{ display: "flex", flexGrow: 1 }}></Box>
               <Box
-                sx={{
-                  display: "flex",
-                  alignItems: "end",
-                  fontFamily: "Happy Time Three",
-                  lineHeight: "25px",
-                }}
-              >
-                {item.price} €<span>&nbsp;</span>
-              </Box>
+                              sx={{
+                                display: "flex",
+                                alignItems: "end",
+                                fontFamily: "Happy Time Three",
+                                lineHeight: "25px",
+                              }}
+                            >
+                              {item.price} €<span>&nbsp;</span>
+                            </Box>
             </Box>
             {/*Description */}
             <Box
