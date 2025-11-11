@@ -92,6 +92,13 @@
       "al·lèrgens": "no conté"
     },
     {
+      "title": "gimlet penedès",
+      "description": "gin Bombay Premier Cru, cordial de cava i llimona",
+      "flavors": "sutilesa i harmonia",
+      "price": 12,
+      "alergenos": "no conté"
+    },
+    {
       "title": "penicillin",
       "description": "dewar's white label whiskey, te de lapsang, gingebre & llimona",
       "flavors": "només amb recepta",
@@ -118,7 +125,7 @@
       "title": "la figa",
       "description": "negre, lleuger i fresc, de garnatxa i carinyena de pau i rabós.",
       "price": {
-        "copa": "5.50",
+        "copa": "5.5",
         "botella": "30"
       },
       "al·lèrgens": "conté sulfits"
@@ -428,7 +435,7 @@
     },
     {
       "title": "almogàver txiringuito sour",
-      "price": "4.60",
+      "price": "4.6",
       "al·lèrgens": "conté gluten"
     },
     {
