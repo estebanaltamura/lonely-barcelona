@@ -217,6 +217,11 @@
       "alergenos": "does not contain"
     },
     {
+      "title": "100&nomore",
+      "price": "13",
+      "alergenos": "no contiene"
+    },
+    {
       "title": "bes gin",
       "price":"12",
       "alergenos": "does not contain"
