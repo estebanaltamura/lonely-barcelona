@@ -1,6 +1,20 @@
 {
   "cocktails": [
     {
+      "title": "ex.preso mar tiny",
+      "description": "ron santa teresa 1796 coffee, licor de cafe, cold brew.",
+      "flavors": "los matices de un ron con caracater y sutileza elevando un clasico.",
+      "price": 12,
+      "alergenos": "no contiene"
+    },
+    {
+      "title": "sneakin' in the Back",
+      "description": "ron santa teresa 1796 coffee y vino naranja.",
+      "flavors": "wow wow wow que esta pasando aqui?, sedoso, espumoso, delicioso.",
+      "price": 12,
+      "alergenos": "contiene huevo"
+    },
+    {
       "title": "paloma spritz",
       "description": "tequila blanco cazadores, licor de flor de sauco st. germain, lima, pomelo ahumado, sour beer & soda.",
       "flavors": "floral, agradablemente citrico. burbujas simpaticas.",

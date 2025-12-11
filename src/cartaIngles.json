@@ -1,6 +1,20 @@
 {
   "cocktails": [
     {
+        "title": "ex.preso mar tiny",
+        "description": "santa teresa 1796 coffee rum, coffee liqueur, cold brew.",
+        "flavors": "the nuances of a rum with character and subtlety elevating a classic.",
+        "price": 12,
+        "alergenos": "does not contain"
+    },
+    {
+        "title": "sneakin' in the Back",
+        "description": "santa Teresa 1796 coffee rum and orange wine.",
+        "flavors": "wow wow wow, what's happening here? silky, foamy, delicious.",
+        "price": 12,
+        "alergenos": "contains egg"
+    },
+    {
       "title": "paloma spritz",
       "description": "tequila blanco cazadores, elderflower liqueur st. germain, lime, smoked grapefruit, sour beer & soda.",
       "flavors": "floral, pleasantly citric. bubbly and cheerful.",

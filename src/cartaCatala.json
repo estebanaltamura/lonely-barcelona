@@ -1,6 +1,20 @@
 {
   "cocktails": [
     {
+        "title": "ex.preso mar tiny",
+        "description": "rom santa teresa 1796 coffee, licor de cafè, cold brew.",
+        "flavors": "els matisos d'un rom amb caràcter i subtilesa elevant un clàssic.",
+        "price": 12,
+        "alergenos": "no en conté"
+    },
+    {
+        "title": "sneakin' in the Back",
+        "description": "rom Santa Teresa 1796 coffee i vi taronja.",
+        "flavors": "wow wow wow, què està passant aquí?, sedós, escumós, deliciós.",
+        "price": 12,
+        "alergenos": "conté ou"
+    },
+    {
       "title": "paloma spritz",
       "description": "tequila blanco cazadores, licor de flor de saüc st. germain, llima, aranja, sour beer & soda.",
       "flavors": "floral, agradablement cítric. bombolles simpàtiques.",
