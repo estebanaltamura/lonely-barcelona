@@ -203,7 +203,7 @@ verticalAlign: 'sub',
   >
     {item.description}
 
-    <span sx={{ position: "relative", top:"3px" }}>
+    <span style={{ position: "relative", top:"3px" }}>
       <LinkIcon sx={{ fontSize: 13 }} />
     </span>
   </Typography>
