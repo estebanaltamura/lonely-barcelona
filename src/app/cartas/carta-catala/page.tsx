@@ -200,22 +200,9 @@ const CartaCatala: React.FC = () => {
   >
     {item.description}
 
-    <Box
-      component="span"
-      sx={{
-        display: 'inline-flex',
-        alignItems: 'center',
-        justifyContent: 'center',
-        ml: 0.5,
-        p: 0.5,
-        borderRadius: '999px',
-        
-        bgcolor: 'action.hover', // fondito gris claro como el de la imagen
-      }}
-      aria-hidden="true"
-    >
+    <span>
       <LinkIcon sx={{ fontSize: 13 }} />
-    </Box>
+    </span>
   </Typography>
                   ) : (
                     item.description
