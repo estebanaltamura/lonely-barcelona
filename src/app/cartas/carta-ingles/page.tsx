@@ -1,8 +1,9 @@
 "use client";
 
-// Gordo choto
 
 import { Box, Divider, Typography } from "@mui/material";
+import LinkIcon from '@mui/icons-material/Link';
+
 import React from "react";
 import carta from "../../../cartaIngles.json";
 import { useRouter } from "next/navigation";
