@@ -183,7 +183,7 @@ const CartaCatala: React.FC = () => {
       textDecoration: 'none',    // sin subrayado
       
       display: 'inline',
-verticalAlign: 'baseline',
+verticalAlign: 'sub',
 
       alignItems: 'center',
       '&:hover': {
