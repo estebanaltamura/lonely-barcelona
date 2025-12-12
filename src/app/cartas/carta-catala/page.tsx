@@ -170,11 +170,14 @@ const CartaCatala: React.FC = () => {
                 {
                   item.description.toLowerCase().includes('santa teresa') ? (
                     <Typography
+                                      className="majorMonoDisplayFont"
+
     component="a"
     href="https://fundacionsantateresa.org/alcatraz/"
     target="_blank"
     rel="noopener noreferrer"
     sx={{
+      fontSize: "12px", lineHeight: "13px", marginTop: "19px"
       color: 'inherit',          // mismo color que el texto
       fontWeight: 'inherit',
       textDecoration: 'none',    // sin subrayado
