@@ -164,7 +164,7 @@ const CartaCatala: React.FC = () => {
               <Typography
                 sx={{ fontSize: "12px", marginTop: "11px", lineHeight: "13px" }}
                 className="majorMonoDisplayFont"
-              >{`·allergens: ${item.allergens}`}</Typography>
+              >{`·allergens: ${item.alergenos}`}</Typography>
             </Box>
           </Box>
         ))}
@@ -357,7 +357,7 @@ const CartaCatala: React.FC = () => {
               <Typography
                 sx={{ fontSize: "12px", marginTop: "11px", lineHeight: "13px" }}
                 className="majorMonoDisplayFont"
-              >{`·allergens: ${item.allergens}`}</Typography>
+              >{`·allergens: ${item.alergenos}`}</Typography>
             </Box>
           </Box>
         ))}
