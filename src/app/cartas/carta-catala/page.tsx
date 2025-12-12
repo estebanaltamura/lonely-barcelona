@@ -177,14 +177,14 @@ const CartaCatala: React.FC = () => {
     target="_blank"
     rel="noopener noreferrer"
     sx={{
-      fontSize: "12px", lineHeight: "13px", marginTop: "11px",
+      fontSize: "12px", lineHeight: "13px", marginTop: "19px",
       color: 'inherit',          // mismo color que el texto
       fontWeight: 'inherit',
       textDecoration: 'none',    // sin subrayado
       display: 'inline-flex',
       alignItems: 'center',
       '&:hover': {
-              fontSize: "12px", lineHeight: "13px", marginTop: "11px",
+              fontSize: "12px", lineHeight: "13px", marginTop: "19px",
 
         textDecoration: 'none',
         color: 'inherit',
@@ -209,11 +209,12 @@ const CartaCatala: React.FC = () => {
         ml: 0.5,
         p: 0.5,
         borderRadius: '999px',
+        
         bgcolor: 'action.hover', // fondito gris claro como el de la imagen
       }}
       aria-hidden="true"
     >
-      <LinkIcon fontSize="small" />
+      <LinkIcon fontSize="13px" />
     </Box>
   </Typography>
                   ) : (
