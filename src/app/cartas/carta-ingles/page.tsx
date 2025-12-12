@@ -1,5 +1,7 @@
 "use client";
 
+// Gordo choto
+
 import { Box, Divider, Typography } from "@mui/material";
 import React from "react";
 import carta from "../../../cartaIngles.json";
