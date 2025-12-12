@@ -19,7 +19,7 @@
       "description": "tequila blanco cazadores, elderflower liqueur st. germain, lime, smoked grapefruit, sour beer & soda.",
       "flavors": "floral, pleasantly citric. bubbly and cheerful.",
       "price": 11,
-      "allergens": "does not contain"
+      "alergenos": "does not contain"
     },    
     {
       "title": "antonietta",
@@ -47,7 +47,7 @@
       "description": "aged rum santa teresa, caramelized peach, red port, peach liqueur, darjeeling tea & lemon.",
       "flavors": "complex, sweet, delicately flavored.",
       "price": 12,
-      "allergens": "does not contain"
+      "alergenos": "does not contain"
     },
     {
       "title": "after dark",
@@ -61,7 +61,7 @@
       "description": "mezcal union, green chartreuse, maraschino, lime, pineapple foam & red pepper.",
       "flavors": "herbal, smoky & tropical.",
       "price": 12,
-      "allergens": "does not contain"
+      "alergenos": "does not contain"
     },
     {
       "title": "lonely calling",
@@ -89,21 +89,21 @@
       "description": "bombay dry gin, fino sherry wine, basil & lemon",
       "flavors": "fresh with an intense finish",
       "price": 11,
-      "allergens": "does not contain"
+      "alergenos": "does not contain"
     },
     {
       "title": "adonis sour",
       "description": "martini rubino, amontillado, orange sherbet, and angostura bitters",
       "flavors": "a man of great beauty, sharp wit, and a touch of bitterness: I’ll take it",
       "price": 11,
-      "allergens": "contain egg"
+      "alergenos": "contain egg"
     },
     {
       "title": "lion's tail",
       "description": "dewar's white label whisky, bourbon, and pimento dram",
       "flavors": "aromatic and spiced",
       "price": 11,
-      "allergens": "does not contain"
+      "alergenos": "does not contain"
     },
     {
       "title": "gimlet penedès",
@@ -117,7 +117,7 @@
       "description": "dewar's white label whiskey, lapsang tea, ginger & lemon",
       "flavors": "prescription only",
       "price": 11,
-      "allergens": "does not contain"
+      "alergenos": "does not contain"
     }
   ],
   "cocktailSinAlcohol": [
@@ -142,7 +142,7 @@
         "copa": "5.5",
         "botella": "30"
       },
-      "allergens": "contains sulfites"
+      "alergenos": "contains sulfites"
     },
     {
       "title": "panorama",
@@ -151,7 +151,7 @@
         "copa": "5.5",
         "botella": "30"
       },
-      "allergens": "contains sulfites"
+      "alergenos": "contains sulfites"
     },
     {
       "title": "mandarines",
@@ -160,7 +160,7 @@
         "copa": "7.5",
         "botella": "40"
       },
-      "allergens": "contains sulfites"
+      "alergenos": "contains sulfites"
     },
     {
       "title": "blublub",
@@ -169,7 +169,7 @@
         "copa": "5.5",
         "botella": "30"
       },
-      "allergens": "contains sulfites"
+      "alergenos": "contains sulfites"
     }
   ],
   "vinosJerez": [
@@ -450,34 +450,34 @@
     {
       "title": "almogaver vicius ipa",
       "price": "4.6",
-      "allergens": "does not contain"
+      "alergenos": "does not contain"
     },
     {
       "title": "almogaver txiringuito sour",
       "price": "4.6",
-      "allergens": "contains gluten"
+      "alergenos": "contains gluten"
     },
     {
       "title": "estrella galicia",
       "price": "3.5",
-      "allergens": "contains gluten"
+      "alergenos": "contains gluten"
     }
   ],
   "comida": [
     {
       "title": "patato chip bloody mary",
       "price": "2.5",
-      "allergens": "contains celery"
+      "alergenos": "contains celery"
     },
     {
       "title": "olives tutti frutti",
       "price": "3.5",
-      "allergens": "does not contain"
+      "alergenos": "does not contain"
     },
     {
       "title": "anchovy gilda",
       "price": "5",
-      "allergens": "contains fish"
+      "alergenos": "contains fish"
     }
   ]
 }
