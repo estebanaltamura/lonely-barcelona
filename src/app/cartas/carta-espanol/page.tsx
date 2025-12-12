@@ -167,6 +167,8 @@ const Carta: React.FC = () => {
       fontWeight: 'inherit',
       textDecoration: 'none',    // sin subrayado
       display: 'inline-flex',
+            justifyContent: 'flex-start',  // 👈 AÑADIR ESTO
+
       alignItems: 'center',
       '&:hover': {
               fontSize: "12px", lineHeight: "13px",
