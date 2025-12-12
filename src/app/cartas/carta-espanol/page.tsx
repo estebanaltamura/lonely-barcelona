@@ -3,6 +3,8 @@
 import { Box, Divider, Typography } from "@mui/material";
 import React from "react";
 import carta from "../../../cartaEspanol.json";
+import LinkIcon from '@mui/icons-material/Link';
+
 import { useRouter } from "next/navigation";
 
 const Carta: React.FC = () => {
