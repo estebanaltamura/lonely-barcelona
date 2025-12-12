@@ -181,8 +181,9 @@ const CartaCatala: React.FC = () => {
       color: 'inherit',          // mismo color que el texto
       fontWeight: 'inherit',
       textDecoration: 'none',    // sin subrayado
-      display: 'inline-flex',
-      justifyContent: 'flex-start',  // 👈 AÑADIR ESTO
+      
+      display: 'inline',
+verticalAlign: 'baseline',
 
       alignItems: 'center',
       '&:hover': {
