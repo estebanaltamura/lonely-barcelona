@@ -176,15 +176,18 @@ const CartaCatala: React.FC = () => {
     rel="noopener noreferrer"
     sx={{
       color: 'inherit',          // mismo color que el texto
+      fontWeight: 'inherit',
       textDecoration: 'none',    // sin subrayado
       display: 'inline-flex',
       alignItems: 'center',
       '&:hover': {
         textDecoration: 'none',
         color: 'inherit',
+        fontWeight: 'inherit',
       },
       '&:visited': {
         color: 'inherit',
+        fontWeight: 'inherit',
       },
     }}
   >
