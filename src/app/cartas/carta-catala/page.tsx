@@ -214,7 +214,7 @@ const CartaCatala: React.FC = () => {
       }}
       aria-hidden="true"
     >
-      <LinkIcon fontSize="13px" />
+      <LinkIcon sx={{ fontSize: 13 }} />
     </Box>
   </Typography>
                   ) : (
