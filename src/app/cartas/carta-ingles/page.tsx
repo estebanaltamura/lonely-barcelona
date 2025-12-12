@@ -151,7 +151,60 @@ const CartaCatala: React.FC = () => {
                 sx={{ fontSize: "12px", lineHeight: "13px", marginTop: "19px" }}
                 className="majorMonoDisplayFont"
               >
-                {item.description}
+                {
+                  item.description.toLowerCase().includes('santa teresa') ? (
+                    <Typography
+                                      className="majorMonoDisplayFont"
+
+    component="a"
+    href="https://fundacionsantateresa.org/alcatraz/"
+    target="_blank"
+    rel="noopener noreferrer"
+    sx={{
+      fontSize: "12px", lineHeight: "13px",
+      color: 'inherit',          // mismo color que el texto
+      fontWeight: 'inherit',
+      textDecoration: 'none',    // sin subrayado
+      display: 'inline-flex',
+      alignItems: 'center',
+      '&:hover': {
+              fontSize: "12px", lineHeight: "13px",
+
+        textDecoration: 'none',
+        color: 'inherit',
+        fontWeight: 'inherit',
+      },
+      '&:visited': {
+              fontSize: "12px", lineHeight: "13px",
+
+        color: 'inherit',
+        fontWeight: 'inherit',
+      },
+    }}
+  >
+    {item.description}
+
+    <Box
+      component="span"
+      sx={{
+        display: 'inline-flex',
+        alignItems: 'center',
+        justifyContent: 'center',
+        ml: 0.5,
+        p: 0.5,
+        borderRadius: '999px',
+        
+        bgcolor: 'action.hover', // fondito gris claro como el de la imagen
+      }}
+      aria-hidden="true"
+    >
+      <LinkIcon sx={{ fontSize: 13 }} />
+    </Box>
+  </Typography>
+                  ) : (
+                    item.description
+                  )
+                }              
               </Typography>
               {item.flavors && (
                 <Typography
