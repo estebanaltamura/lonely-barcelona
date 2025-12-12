@@ -166,8 +166,9 @@ const Carta: React.FC = () => {
       color: 'inherit',          // mismo color que el texto
       fontWeight: 'inherit',
       textDecoration: 'none',    // sin subrayado
-      display: 'inline-flex',
-            justifyContent: 'flex-start',  // 👈 AÑADIR ESTO
+      
+      display: 'inline',
+verticalAlign: 'sub',
 
       alignItems: 'center',
       '&:hover': {
@@ -187,22 +188,9 @@ const Carta: React.FC = () => {
   >
     {item.description}
 
-    <Box
-      component="span"
-      sx={{
-        display: 'inline-flex',
-        alignItems: 'center',
-        justifyContent: 'center',
-        ml: 0.5,
-        p: 0.5,
-        borderRadius: '999px',
-        
-        bgcolor: 'action.hover', // fondito gris claro como el de la imagen
-      }}
-      aria-hidden="true"
-    >
+    <span style={{ position: "relative", top:"3px" }}>
       <LinkIcon sx={{ fontSize: 13 }} />
-    </Box>
+    </span>
   </Typography>
                   ) : (
                     item.description
