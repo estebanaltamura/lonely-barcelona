@@ -19,7 +19,7 @@
       "description": "tequila blanco cazadores, licor de flor de saüc st. germain, llima, aranja, sour beer & soda.",
       "flavors": "floral, agradablement cítric. bombolles simpàtiques.",
       "price": 11,
-      "al·lèrgens": "no conté"
+      "alergenos": "no conté"
     },
     {
       "title": "antonietta",
@@ -47,7 +47,7 @@
       "description": "rom envellit santa teresa, préssec caramelitzat, porto vermell, licor de préssec, te de djarleig & llimona.",
       "flavors": "complex, dolç, delicadament aromatitzat.",
       "price": 12,
-      "al·lèrgens": "no conté"
+      "alergenos": "no conté"
     },
     {
       "title": "after dark",
@@ -61,7 +61,7 @@
       "description": "mezcal union, chartreuse verd, maraschino, llima, escuma de pinya & pebre vermell.",
       "flavors": "herbal, fumat & tropical.",
       "price": 12,
-      "al·lèrgens": "no conté"
+      "alergenos": "no conté"
     },
     {
       "title": "lonely calling",
@@ -89,21 +89,21 @@
       "description": "bombay dry gin, vi de xerès fino, alfàbrega & llimona",
       "flavors": "fresc amb final intens",
       "price": 11,
-      "al·lèrgens": "no conté"
+      "alergenos": "no conté"
     },
     {
       "title": "adonis sour",
       "description": "martini rubino, amontillado, sorbet de taronja i angostura bitter",
       "flavors": "un home de gran bellesa, humor àcid i un toc d’amargor: m’ho quedo",
       "price": 11,
-      "al·lèrgens": "conté ou"
+      "alergenos": "conté ou"
     },
     {
       "title": "lion's tail",
       "description": "whisky dewar's white label, bourbon i pimiento dram",
       "flavors": "aromàtic i especiat",
       "price": 11,
-      "al·lèrgens": "no conté"
+      "alergenos": "no conté"
     },
     {
       "title": "gimlet penedès",
@@ -117,7 +117,7 @@
       "description": "dewar's white label whiskey, te de lapsang, gingebre & llimona",
       "flavors": "només amb recepta",
       "price": 11,
-      "al·lèrgens": "no conté"
+      "alergenos": "no conté"
     }
   ],
   "cocktailSinAlcohol": [
@@ -142,7 +142,7 @@
         "copa": "5.5",
         "botella": "30"
       },
-      "al·lèrgens": "conté sulfits"
+      "alergenos": "conté sulfits"
     },
     {
       "title": "panorama",
@@ -151,7 +151,7 @@
         "copa": "5.5",
         "botella": "30"
       },
-      "al·lèrgens": "conté sulfits"
+      "alergenos": "conté sulfits"
     },
     {
       "title": "mandarines",
@@ -160,7 +160,7 @@
         "copa": "7.5",
         "botella": "40"
       },
-      "al·lèrgens": "conté sulfits"
+      "alergenos": "conté sulfits"
     },
     {
       "title": "blublub",
@@ -169,7 +169,7 @@
         "copa": "5.5",
         "botella": "30"
       },
-      "al·lèrgens": "conté sulfits"
+      "alergenos": "conté sulfits"
     }
   ],
   "vinsJerez": [
@@ -450,34 +450,34 @@
     {
       "title": "almogàver vicious ipa",
       "price": "4.6",
-      "al·lèrgens": "no conté"
+      "alergenos": "no conté"
     },
     {
       "title": "almogàver txiringuito sour",
       "price": "4.6",
-      "al·lèrgens": "conté gluten"
+      "alergenos": "conté gluten"
     },
     {
       "title": "estrella galicia",
       "price": "3,5",
-      "al·lèrgens": "conté gluten"
+      "alergenos": "conté gluten"
     }
   ],
   "comida": [
     {
       "title": "pataton bloody mary",
       "price": "2.5",
-      "al·lèrgens": "conté api"
+      "alergenos": "conté api"
     },
     {
       "title": "olives tutti frutti",
       "price": "3.5",
-      "al·lèrgens": "no conté"
+      "alergenos": "no conté"
     },
     {
       "title": "gildas d`anxova",
       "price": "5",
-      "al·lèrgens": "conté peix"
+      "alergenos": "conté peix"
     }
   ]
 }
