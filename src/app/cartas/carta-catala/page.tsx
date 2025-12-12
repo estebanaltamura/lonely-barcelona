@@ -167,13 +167,43 @@ const CartaCatala: React.FC = () => {
               >
                 {
                   item.description.toLowerCase().includes('santa teresa') ? (
-                    <a
-                      href="https://fundacionsantateresa.org/alcatraz/"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      {item.description}
-                    </a>
+                    <Typography
+    component="a"
+    href="https://fundacionsantateresa.org/alcatraz/"
+    target="_blank"
+    rel="noopener noreferrer"
+    sx={{
+      color: 'inherit',          // mismo color que el texto
+      textDecoration: 'none',    // sin subrayado
+      display: 'inline-flex',
+      alignItems: 'center',
+      '&:hover': {
+        textDecoration: 'none',
+        color: 'inherit',
+      },
+      '&:visited': {
+        color: 'inherit',
+      },
+    }}
+  >
+    {item.description}
+
+    <Box
+      component="span"
+      sx={{
+        display: 'inline-flex',
+        alignItems: 'center',
+        justifyContent: 'center',
+        ml: 0.5,
+        p: 0.5,
+        borderRadius: '999px',
+        bgcolor: 'action.hover', // fondito gris claro como el de la imagen
+      }}
+      aria-hidden="true"
+    >
+      <LinkIcon fontSize="small" />
+    </Box>
+  </Typography>
                   ) : (
                     item.description
                   )
